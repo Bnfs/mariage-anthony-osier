@@ -4,7 +4,7 @@ import AfricanMotif from './AfricanMotif'
 
 const CONTACTS = [
   { name: 'Anthony', phone: 'À venir' },
-  { name: 'Osier', phone: 'À venir' },
+  { name: 'Osier Andréa', phone: 'À venir' },
 ]
 
 export default function Contacts() {

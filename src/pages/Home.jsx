@@ -37,7 +37,7 @@ export default function Home() {
         >
           <path d="M12 21s-7.5-4.8-10-9.3C0.3 8.4 2 5 5.5 5c2 0 3.5 1.1 4.5 2.6C11 6.1 12.5 5 14.5 5 18 5 19.7 8.4 22 11.7 14.5 16.2 12 21 12 21z" />
         </svg>
-        Anthony &amp; Osier · 14-15 Août 2026 · Yaoundé
+        Anthony &amp; Osier Andréa · 14-15 Août 2026 · Yaoundé
       </footer>
     </main>
   )

@@ -46,7 +46,7 @@ export default function Envelope({ onOpen }) {
           >
             <img
               src={coupleImg}
-              alt="Anthony et Osier"
+              alt="Anthony et Osier Andréa"
               className="w-full h-full object-cover"
             />
           </motion.div>
@@ -93,7 +93,7 @@ export default function Envelope({ onOpen }) {
         </button>
 
         <p className="mt-8 md:mt-10 font-display italic text-cocoa-light text-sm md:text-lg text-center">
-          Anthony &amp; Osier vous invitent
+          Anthony &amp; Osier Andréa vous invitent
         </p>
       </motion.div>
     </motion.div>

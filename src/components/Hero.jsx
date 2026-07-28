@@ -35,7 +35,7 @@ export default function Hero() {
           >
             <img
               src={coupleImg}
-              alt="Anthony et Osier"
+              alt="Anthony et Osier Andréa"
               className="w-full h-full object-cover"
             />
           </motion.div>
@@ -55,7 +55,7 @@ export default function Hero() {
             />
             <span className="font-display italic text-lg md:text-2xl text-coral">&amp;</span>
             <NameReveal
-              text="Osier"
+              text="Osier Andréa"
               delay={1.1}
               className="font-script text-3xl md:text-5xl leading-none text-cocoa"
             />

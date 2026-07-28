@@ -37,7 +37,7 @@ const TIMELINE = [
 
 const CALENDAR_URL =
   'https://calendar.google.com/calendar/render?action=TEMPLATE' +
-  '&text=' + encodeURIComponent('Mariage Anthony & Osier') +
+  '&text=' + encodeURIComponent('Mariage Anthony & Osier Andréa') +
   '&dates=20260814/20260816' +
   '&details=' + encodeURIComponent("14 août : accueil, danse traditionnelle et cérémonie de la dot (Nsimeyong, Terre Rouge, Yaoundé). 15 août : réception en soirée à United Hotel, sur invitation.") +
   '&location=' + encodeURIComponent('Nsimeyong, Terre Rouge, Yaoundé, Cameroun')
@@ -170,7 +170,7 @@ export default function ProgrammePage() {
 
             <motion.a
               href={`https://wa.me/?text=${encodeURIComponent(
-                'Anthony & Osier se marient 💍 Découvrez le programme du mariage (14 & 15 Août 2026, Yaoundé) : ' +
+                'Anthony & Osier Andréa se marient 💍 Découvrez le programme du mariage (14 & 15 Août 2026, Yaoundé) : ' +
                   (typeof window !== 'undefined' ? window.location.href : '')
               )}`}
               target="_blank"

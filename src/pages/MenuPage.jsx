@@ -104,7 +104,7 @@ export default function MenuPage() {
           <div className="flex items-center justify-center gap-3 mt-6 md:mt-8 mb-10 md:mb-14">
             <span className="h-px w-8 md:w-12 bg-mustard" />
             <span className="font-display text-lg md:text-2xl tracking-widest text-cocoa">
-              Anthony &amp; Osier
+              Anthony &amp; Osier Andréa
             </span>
             <span className="h-px w-8 md:w-12 bg-mustard" />
           </div>
