@@ -1,11 +1,19 @@
+import { motion } from 'framer-motion'
 import WaxPattern from './WaxPattern'
 import Reveal from './Reveal'
 import AfricanMotif from './AfricanMotif'
 
-const CONTACTS = [
-  { name: 'Anthony', phone: 'À venir' },
-  { name: 'Osier Andréa', phone: 'À venir' },
-]
+const PHONES = ['+237 6 95 09 66 62', '+237 6 98 29 91 12']
+
+const PhoneIcon = (
+  <path
+    d="M6 3h3l2 5-2.5 1.5a11 11 0 0 0 5 5L15 12l5 2v3a2 2 0 0 1-2 2C10.5 19 5 13.5 5 6a2 2 0 0 1 1-3z"
+    stroke="currentColor"
+    strokeWidth="1.5"
+    fill="none"
+    strokeLinejoin="round"
+  />
+)
 
 export default function Contacts() {
   return (
@@ -15,23 +23,29 @@ export default function Contacts() {
       <AfricanMotif type="djembe" className="absolute top-1/2 left-3 -translate-y-1/2 w-9 h-9 md:w-12 md:h-12 opacity-60" />
 
       <Reveal>
-        <h2 className="font-display text-3xl md:text-5xl text-coral mb-8 md:mb-12 tracking-wide">Contacts</h2>
+        <h2 className="font-display text-3xl md:text-5xl text-coral mb-3 md:mb-4 tracking-wide">Contacts</h2>
+        <p className="text-sm md:text-lg text-cocoa-light italic mb-8 md:mb-12">
+          Pour toute question, n&apos;hésitez pas à nous joindre
+        </p>
 
-        <div className="max-w-xs sm:max-w-sm md:max-w-xl mx-auto space-y-5 md:space-y-6">
-          {CONTACTS.map((c) => (
-            <div
-              key={c.name}
-              className="flex items-center justify-between border-2 border-mustard/50 rounded-lg px-5 md:px-8 py-4 md:py-5 bg-white"
+        <div className="flex flex-wrap items-stretch justify-center gap-4 md:gap-6">
+          {PHONES.map((phone) => (
+            <motion.a
+              key={phone}
+              href={`tel:${phone.replace(/\s/g, '')}`}
+              whileHover={{ y: -3 }}
+              whileTap={{ scale: 0.96 }}
+              className="inline-flex items-center gap-3 border-2 border-mustard/50 rounded-full bg-white px-6 md:px-8 py-4 shadow-sm hover:bg-mustard/10 transition-colors"
             >
-              <span className="font-display italic text-lg md:text-2xl text-cocoa">{c.name}</span>
-              <span className="text-sm md:text-base text-cocoa-light">{c.phone}</span>
-            </div>
+              <span className="w-9 h-9 md:w-10 md:h-10 rounded-full border-2 border-coral flex items-center justify-center text-coral shrink-0">
+                <svg viewBox="0 0 24 24" className="w-5 h-5">
+                  {PhoneIcon}
+                </svg>
+              </span>
+              <span className="font-display text-base md:text-xl text-cocoa">{phone}</span>
+            </motion.a>
           ))}
         </div>
-
-        <p className="mt-8 md:mt-10 text-sm md:text-base text-cocoa-light italic">
-          Pour toute question, n&apos;hésitez pas à nous contacter.
-        </p>
       </Reveal>
     </section>
   )
