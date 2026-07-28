@@ -3,10 +3,10 @@ import Envelope from '../components/Envelope'
 import Hero from '../components/Hero'
 import Welcome from '../components/Welcome'
 import MenuIcons from '../components/MenuIcons'
+import Blessing from '../components/Blessing'
 import Lieu from '../components/Lieu'
 import Contacts from '../components/Contacts'
 import Cadeaux from '../components/Cadeaux'
-import Rsvp from '../components/Rsvp'
 import FloatingPetals from '../components/FloatingPetals'
 
 const WEDDING_START = new Date('2026-08-14T09:00:00')
@@ -24,7 +24,7 @@ export default function Home() {
       <Hero />
       <Welcome target={WEDDING_START} />
       <MenuIcons />
-      <Rsvp />
+      <Blessing />
       <Lieu />
       <Contacts />
       <Cadeaux />

@@ -6,7 +6,7 @@ import revolutIcon from '../assets/revolut.svg'
 
 export default function Cadeaux() {
   return (
-    <section id="cadeaux" className="relative bg-ivory px-6 py-16 md:py-24 text-center scroll-mt-6 overflow-hidden">
+    <section id="cadeaux" className="relative bg-white px-6 py-16 md:py-24 text-center scroll-mt-6 overflow-hidden">
       <WaxPattern className="absolute top-4 right-4 w-20 h-20 md:w-28 md:h-28" />
       <WaxPattern className="absolute bottom-4 left-4 w-20 h-20 md:w-28 md:h-28 rotate-180" />
       <AfricanMotif type="palm" className="absolute top-1/2 left-3 -translate-y-1/2 w-9 h-9 md:w-12 md:h-12 opacity-60" />
