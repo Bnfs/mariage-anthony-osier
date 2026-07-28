@@ -20,10 +20,13 @@ export default function Envelope({ onOpen }) {
       transition={{ duration: 0.35, delay: opening ? 0.35 : 0 }}
       className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden bg-cocoa px-6 py-10"
     >
-      <img
+      <motion.img
         src={goldFabricBg}
         alt=""
         className="absolute inset-0 w-full h-full object-cover"
+        initial={{ scale: 1.15, x: 0, y: 0 }}
+        animate={{ x: [0, -14, 6, 0], y: [0, -10, 8, 0] }}
+        transition={{ duration: 20, repeat: Infinity, ease: 'easeInOut' }}
       />
       <div className="absolute inset-0 bg-cocoa/70" />
 
