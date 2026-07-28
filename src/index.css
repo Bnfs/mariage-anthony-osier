@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Cormorant Garamond', serif;
+  --font-script: 'Great Vibes', cursive;
+  --font-body: 'Montserrat', sans-serif;
+
+  --color-cocoa: #3b2318;
+  --color-cocoa-light: #6b4530;
+  --color-cream: #faf3e8;
+  --color-ivory: #fffaf2;
+  --color-coral: #d94a24;
+  --color-mustard: #d99a24;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-cream);
+  color: var(--color-cocoa);
+  font-family: var(--font-body);
+}
