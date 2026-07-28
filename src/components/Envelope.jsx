@@ -29,6 +29,34 @@ export default function Envelope({ onOpen }) {
         transition={{ duration: 20, repeat: Infinity, ease: 'easeInOut' }}
       />
       <div className="absolute inset-0 bg-cocoa/70" />
+      <div
+        className="absolute inset-0"
+        style={{
+          background:
+            'radial-gradient(circle at center, transparent 35%, rgba(20,10,5,0.65) 100%)',
+        }}
+      />
+
+      {[...Array(10)].map((_, i) => (
+        <motion.span
+          key={i}
+          className="absolute text-mustard"
+          style={{
+            left: `${(i * 37 + 8) % 100}%`,
+            top: `${(i * 53 + 12) % 100}%`,
+            fontSize: 10 + (i % 3) * 4,
+          }}
+          animate={{ opacity: [0, 1, 0], scale: [0.6, 1.1, 0.6] }}
+          transition={{
+            duration: 2.5 + (i % 4),
+            repeat: Infinity,
+            delay: i * 0.6,
+            ease: 'easeInOut',
+          }}
+        >
+          ✦
+        </motion.span>
+      ))}
 
       <FloatingPetals />
       <WaxPattern className="absolute -top-2 -left-2 w-28 h-28" />
@@ -42,13 +70,32 @@ export default function Envelope({ onOpen }) {
           scale: opening ? 1.08 : 1,
         }}
         transition={{ duration: 0.4 }}
+        style={{ boxShadow: '0 25px 60px -15px rgba(0,0,0,0.6), 0 10px 25px -8px rgba(0,0,0,0.4)' }}
         className="relative z-10 w-full max-w-xs sm:max-w-sm md:max-w-lg border-2 md:border-[3px] border-mustard/70 rounded-t-full rounded-b-lg pt-10 md:pt-16 pb-8 md:pb-12 px-6 md:px-10 flex flex-col items-center bg-cream/60 backdrop-blur-sm"
       >
+        <span
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-[5px] md:inset-[7px] rounded-t-full rounded-b-md border border-mustard/40"
+        />
+
         <div className="relative w-28 h-28 md:w-40 md:h-40 flex items-center justify-center mb-8 md:mb-10">
           <motion.div
             className="absolute inset-0 rounded-full bg-mustard/40 blur-lg"
             animate={{ scale: [1, 1.2, 1], opacity: [0.5, 0.9, 0.5] }}
             transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
+          />
+          <motion.div
+            aria-hidden="true"
+            className="absolute -inset-1 rounded-full"
+            style={{
+              background:
+                'conic-gradient(from 0deg, transparent, #ffe9a8 8%, transparent 20%)',
+              WebkitMaskImage:
+                'radial-gradient(circle, transparent 64%, black 65%)',
+              maskImage: 'radial-gradient(circle, transparent 64%, black 65%)',
+            }}
+            animate={{ rotate: 360 }}
+            transition={{ duration: 4, repeat: Infinity, ease: 'linear' }}
           />
           <motion.div
             animate={{ scale: [1, 1.05, 1] }}
