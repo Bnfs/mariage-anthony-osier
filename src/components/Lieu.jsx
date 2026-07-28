@@ -16,7 +16,7 @@ export default function Lieu() {
       <Reveal>
         <h2 className="font-display text-3xl md:text-5xl text-coral mb-6 md:mb-10 tracking-wide">Lieu</h2>
 
-        <div className="max-w-xs sm:max-w-sm md:max-w-xl mx-auto space-y-10 md:space-y-14">
+        <div className="max-w-xs sm:max-w-sm md:max-w-xl lg:max-w-2xl mx-auto space-y-10 md:space-y-14">
           <div>
             <p className="text-xs uppercase tracking-widest text-mustard mb-2">14 Août 2026</p>
             <p className="font-display italic text-xl md:text-3xl text-cocoa mb-1">Terre Rouge</p>

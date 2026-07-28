@@ -68,7 +68,7 @@ export default function MenuPage() {
       <WaxPattern className="absolute top-[45%] right-2 w-14 h-14 md:w-20 md:h-20 rotate-12 opacity-60" />
       <WaxPattern className="absolute bottom-10 right-3 w-16 h-16 md:w-24 md:h-24 rotate-45" />
 
-      <div className="relative max-w-xs sm:max-w-sm md:max-w-2xl mx-auto px-6 pt-8 md:pt-12 pb-16 md:pb-24">
+      <div className="relative max-w-xs sm:max-w-sm md:max-w-2xl lg:max-w-3xl mx-auto px-6 pt-8 md:pt-12 pb-16 md:pb-24">
         <Link
           to="/"
           className="inline-flex items-center gap-1 text-sm md:text-base text-cocoa-light mb-8 md:mb-10 hover:text-coral transition-colors"

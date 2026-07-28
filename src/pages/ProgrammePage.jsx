@@ -67,7 +67,7 @@ export default function ProgrammePage() {
       <AfricanMotif type="djembe" className="absolute top-[25%] left-3 w-9 h-9 md:w-12 md:h-12 opacity-60" />
       <AfricanMotif type="mask" className="absolute top-[75%] right-3 w-9 h-9 md:w-12 md:h-12 opacity-60" />
 
-      <div className="relative max-w-xs sm:max-w-sm md:max-w-2xl mx-auto px-6 pt-8 md:pt-12 pb-16 md:pb-24">
+      <div className="relative max-w-xs sm:max-w-sm md:max-w-2xl lg:max-w-3xl mx-auto px-6 pt-8 md:pt-12 pb-16 md:pb-24">
         <Link
           to="/"
           className="inline-flex items-center gap-1 text-sm md:text-base text-cocoa-light mb-8 md:mb-10 hover:text-coral transition-colors"

@@ -11,7 +11,7 @@ export default function Blessing() {
       <AfricanMotif type="mask" className="absolute top-1/2 left-3 -translate-y-1/2 w-9 h-9 md:w-12 md:h-12 opacity-60" />
 
       <Reveal>
-        <div className="max-w-xs sm:max-w-sm md:max-w-xl mx-auto">
+        <div className="max-w-xs sm:max-w-sm md:max-w-xl lg:max-w-2xl mx-auto">
           <div className="flex items-center justify-center gap-3 mb-6 md:mb-8">
             <Laurel className="w-12 h-5 md:w-16 md:h-7" />
             <Laurel className="w-12 h-5 md:w-16 md:h-7" flip />

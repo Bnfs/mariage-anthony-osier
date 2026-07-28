@@ -14,7 +14,7 @@ export default function Cadeaux() {
       <Reveal>
         <h2 className="font-display text-3xl md:text-5xl text-coral mb-6 md:mb-10 tracking-wide">Cadeaux</h2>
 
-        <div className="max-w-xs sm:max-w-sm md:max-w-xl mx-auto">
+        <div className="max-w-xs sm:max-w-sm md:max-w-xl lg:max-w-2xl mx-auto">
           <p className="font-display italic text-lg md:text-2xl text-cocoa leading-relaxed">
             Pas de liste de cadeaux !
           </p>

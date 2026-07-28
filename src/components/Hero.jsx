@@ -14,7 +14,7 @@ export default function Hero() {
       <AfricanMotif type="palm" className="absolute top-1/3 left-4 w-9 h-9 md:w-14 md:h-14 opacity-60" />
       <AfricanMotif type="calabash" className="absolute top-2/3 right-4 w-9 h-9 md:w-14 md:h-14 opacity-60" />
 
-      <div className="relative max-w-xs sm:max-w-sm md:max-w-2xl mx-auto text-center">
+      <div className="relative max-w-xs sm:max-w-sm md:max-w-2xl lg:max-w-3xl mx-auto text-center">
         <Reveal>
           <p className="uppercase tracking-[0.3em] text-xs md:text-sm text-coral mb-6 md:mb-10">
             Nous nous marions
@@ -82,7 +82,7 @@ export default function Hero() {
         </Reveal>
 
         <Reveal delay={0.3}>
-          <div className="relative mt-10 md:mt-14 max-w-xs sm:max-w-sm md:max-w-lg mx-auto">
+          <div className="relative mt-10 md:mt-14 max-w-xs sm:max-w-sm md:max-w-lg lg:max-w-xl mx-auto">
             <div
               aria-hidden="true"
               className="absolute -inset-2 rounded-2xl bg-coral/20 blur-xl"

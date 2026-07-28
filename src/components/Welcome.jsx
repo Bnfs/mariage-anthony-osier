@@ -10,7 +10,7 @@ export default function Welcome({ target }) {
       <WaxPattern className="absolute bottom-4 left-2 w-24 h-24 md:w-32 md:h-32 rotate-90" />
       <AfricanMotif type="calabash" className="absolute top-1/2 left-3 -translate-y-1/2 w-9 h-9 md:w-12 md:h-12 opacity-60" />
 
-      <div className="max-w-xs sm:max-w-sm md:max-w-2xl mx-auto">
+      <div className="max-w-xs sm:max-w-sm md:max-w-2xl lg:max-w-3xl mx-auto">
         <Reveal>
           <p className="font-display italic text-lg md:text-2xl text-cocoa leading-relaxed">
             « Nous venons de deux chemins différents, avec nos blessures,
