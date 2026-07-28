@@ -102,13 +102,16 @@ export default function MenuPage() {
             <Laurel className="w-10 h-4 md:w-14 md:h-6" flip />
           </div>
 
-          <div className="flex items-center justify-center gap-3 mt-6 md:mt-8 mb-10 md:mb-14">
+          <div className="flex items-center justify-center gap-3 mt-6 md:mt-8">
             <span className="h-px w-8 md:w-12 bg-mustard" />
             <span className="font-display text-lg md:text-2xl tracking-widest text-cocoa">
               Anthony &amp; Osier Andréa
             </span>
             <span className="h-px w-8 md:w-12 bg-mustard" />
           </div>
+          <p className="text-xs md:text-sm uppercase tracking-[0.2em] text-coral mt-2 mb-10 md:mb-14">
+            Yaoundé, Cameroun
+          </p>
         </Reveal>
 
         <div className="space-y-10 md:space-y-14">
