@@ -26,13 +26,13 @@ export default function Countdown({ target }) {
   ]
 
   return (
-    <div className="flex justify-center gap-3 sm:gap-4">
+    <div className="flex justify-center gap-3 sm:gap-4 md:gap-6">
       {units.map((u) => (
         <div key={u.label} className="flex flex-col items-center">
-          <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-cocoa text-ivory flex items-center justify-center font-display text-xl sm:text-2xl shadow-md border-2 border-mustard">
+          <div className="w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full bg-cocoa text-ivory flex items-center justify-center font-display text-xl sm:text-2xl md:text-3xl shadow-md border-2 md:border-[3px] border-mustard">
             {String(u.value).padStart(2, '0')}
           </div>
-          <span className="mt-1 text-[10px] sm:text-xs tracking-widest uppercase text-cocoa-light">
+          <span className="mt-1 md:mt-2 text-[10px] sm:text-xs md:text-sm tracking-widest uppercase text-cocoa-light">
             {u.label}
           </span>
         </div>

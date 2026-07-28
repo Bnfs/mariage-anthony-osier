@@ -1,0 +1,46 @@
+const ICONS = {
+  calabash: (
+    <>
+      <path d="M12 3c3 2 5 6 5 10a5 5 0 0 1-10 0c0-4 2-8 5-10z" />
+      <path d="M9 8h6" strokeLinecap="round" />
+    </>
+  ),
+  djembe: (
+    <>
+      <path d="M8 4h8l-1.5 6h-5L8 4z" />
+      <path d="M6.5 10h11l-2 10a2.5 2.5 0 0 1-2.3 2h-2.4a2.5 2.5 0 0 1-2.3-2l-2-10z" />
+      <path d="M7 13h10M7.6 16h8.8" strokeLinecap="round" />
+    </>
+  ),
+  palm: (
+    <>
+      <path d="M12 21V10" strokeLinecap="round" />
+      <path d="M12 10c-3-1-6 0-8 2 2 3 6 3 8 1" />
+      <path d="M12 10c3-1 6 0 8 2-2 3-6 3-8 1" />
+      <path d="M12 10c-1-3-1-5 1-7 2 2 1 5-1 7z" />
+    </>
+  ),
+  mask: (
+    <>
+      <path d="M12 3c-3.5 0-6 2.7-6 7 0 5 2.5 9.5 4 11 .6-1 1-2 2-2s1.4 1 2 2c1.5-1.5 4-6 4-11 0-4.3-2.5-7-6-7z" />
+      <path d="M9 10.5c.5-1 1.5-1 2 0M13 10.5c.5-1 1.5-1 2 0" strokeLinecap="round" />
+      <path d="M10 15c.7.6 1.3.6 2 0 .7.6 1.3.6 2 0" strokeLinecap="round" />
+    </>
+  ),
+}
+
+export default function AfricanMotif({ type = 'calabash', className = '' }) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      className={className}
+      fill="none"
+      stroke="#3b2318"
+      strokeWidth="1.3"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      {ICONS[type]}
+    </svg>
+  )
+}

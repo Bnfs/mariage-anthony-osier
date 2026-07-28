@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 
-const PETALS = Array.from({ length: 20 }).map((_, i) => ({
+const PETALS = Array.from({ length: 10 }).map((_, i) => ({
   id: i,
   left: (i * 31 + 7) % 100,
   size: 28 + ((i * 37) % 34),

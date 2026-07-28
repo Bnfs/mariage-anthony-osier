@@ -31,9 +31,9 @@ export default function Envelope({ onOpen }) {
           scale: opening ? 1.08 : 1,
         }}
         transition={{ duration: 0.4 }}
-        className="relative z-10 w-full max-w-xs border-2 border-mustard/70 rounded-t-full rounded-b-lg pt-10 pb-8 px-6 flex flex-col items-center bg-cream/60 backdrop-blur-sm"
+        className="relative z-10 w-full max-w-xs sm:max-w-sm md:max-w-lg border-2 md:border-[3px] border-mustard/70 rounded-t-full rounded-b-lg pt-10 md:pt-16 pb-8 md:pb-12 px-6 md:px-10 flex flex-col items-center bg-cream/60 backdrop-blur-sm"
       >
-        <div className="relative w-28 h-28 flex items-center justify-center mb-8">
+        <div className="relative w-28 h-28 md:w-40 md:h-40 flex items-center justify-center mb-8 md:mb-10">
           <motion.div
             className="absolute inset-0 rounded-full bg-mustard/40 blur-lg"
             animate={{ scale: [1, 1.2, 1], opacity: [0.5, 0.9, 0.5] }}
@@ -42,7 +42,7 @@ export default function Envelope({ onOpen }) {
           <motion.div
             animate={{ scale: [1, 1.05, 1] }}
             transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
-            className="relative w-28 h-28 rounded-full bg-ivory border-4 border-mustard overflow-hidden shadow-lg"
+            className="relative w-28 h-28 md:w-40 md:h-40 rounded-full bg-ivory border-4 md:border-[5px] border-mustard overflow-hidden shadow-lg"
           >
             <img
               src={coupleImg}
@@ -52,7 +52,7 @@ export default function Envelope({ onOpen }) {
           </motion.div>
         </div>
 
-        <p className="text-cocoa-light uppercase tracking-[0.2em] text-xs mb-6 text-center">
+        <p className="text-cocoa-light uppercase tracking-[0.2em] text-xs md:text-sm mb-6 md:mb-8 text-center">
           Cliquez sur l&apos;enveloppe
         </p>
 
@@ -92,7 +92,7 @@ export default function Envelope({ onOpen }) {
           </motion.div>
         </button>
 
-        <p className="mt-8 font-display italic text-cocoa-light text-sm text-center">
+        <p className="mt-8 md:mt-10 font-display italic text-cocoa-light text-sm md:text-lg text-center">
           Anthony &amp; Osier vous invitent
         </p>
       </motion.div>
