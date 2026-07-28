@@ -1,5 +1,5 @@
 import { useRef } from 'react'
-import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { motion, useScroll, useTransform } from 'framer-motion'
 import WaxPattern from '../components/WaxPattern'
 import Laurel from '../components/Laurel'
@@ -50,6 +50,7 @@ const PALETTE = [
 ]
 
 export default function ProgrammePage() {
+  const navigate = useNavigate()
   const headerRef = useRef(null)
   const { scrollYProgress } = useScroll({
     target: headerRef,
@@ -68,12 +69,12 @@ export default function ProgrammePage() {
       <AfricanMotif type="mask" className="absolute top-[75%] right-3 w-9 h-9 md:w-12 md:h-12 opacity-60" />
 
       <div className="relative max-w-xs sm:max-w-sm md:max-w-2xl lg:max-w-3xl mx-auto px-6 pt-8 md:pt-12 pb-16 md:pb-24">
-        <Link
-          to="/"
+        <button
+          onClick={() => navigate(-1)}
           className="inline-flex items-center gap-1 text-sm md:text-base text-cocoa-light mb-8 md:mb-10 hover:text-coral transition-colors"
         >
           ← Retour
-        </Link>
+        </button>
 
         <Reveal>
           <div ref={headerRef} className="relative w-48 h-48 md:w-64 md:h-64 mx-auto">
