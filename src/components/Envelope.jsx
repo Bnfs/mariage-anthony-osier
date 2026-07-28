@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import WaxPattern from './WaxPattern'
 import FloatingPetals from './FloatingPetals'
 import coupleImg from '../assets/couple.jpeg'
+import goldFabricBg from '../assets/gold-fabric-bg.jpg'
 
 export default function Envelope({ onOpen }) {
   const [opening, setOpening] = useState(false)
@@ -17,8 +18,15 @@ export default function Envelope({ onOpen }) {
     <motion.div
       animate={{ opacity: opening ? 0 : 1 }}
       transition={{ duration: 0.35, delay: opening ? 0.35 : 0 }}
-      className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden bg-ivory px-6 py-10"
+      className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden bg-cocoa px-6 py-10"
     >
+      <img
+        src={goldFabricBg}
+        alt=""
+        className="absolute inset-0 w-full h-full object-cover"
+      />
+      <div className="absolute inset-0 bg-cocoa/70" />
+
       <FloatingPetals />
       <WaxPattern className="absolute -top-2 -left-2 w-28 h-28" />
       <WaxPattern className="absolute -bottom-4 -right-4 w-32 h-32 rotate-180" />
