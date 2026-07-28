@@ -12,10 +12,17 @@ import FloatingPetals from '../components/FloatingPetals'
 const WEDDING_START = new Date('2026-08-14T09:00:00')
 
 export default function Home() {
-  const [opened, setOpened] = useState(false)
+  const [opened, setOpened] = useState(
+    () => sessionStorage.getItem('envelopeOpened') === 'true'
+  )
+
+  const handleOpen = () => {
+    sessionStorage.setItem('envelopeOpened', 'true')
+    setOpened(true)
+  }
 
   if (!opened) {
-    return <Envelope onOpen={() => setOpened(true)} />
+    return <Envelope onOpen={handleOpen} />
   }
 
   return (
