@@ -9,7 +9,7 @@ export default function Reveal({ children, delay = 0, className = '', y = 24, bo
       transition={
         bounce
           ? { type: 'spring', stiffness: 260, damping: 18, delay }
-          : { duration: 0.7, delay, ease: 'easeOut' }
+          : { duration: 0.45, delay, ease: 'easeOut' }
       }
       className={className}
     >

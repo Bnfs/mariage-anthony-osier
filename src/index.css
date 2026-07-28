@@ -24,3 +24,22 @@ body {
   color: var(--color-cocoa);
   font-family: var(--font-body);
 }
+
+@keyframes petal-fall {
+  0% {
+    transform: translate(0, -10vh) rotate(0deg);
+  }
+  50% {
+    transform: translate(var(--petal-drift), 50vh) rotate(180deg);
+  }
+  100% {
+    transform: translate(0, 110vh) rotate(360deg);
+  }
+}
+
+.petal-fall {
+  animation: petal-fall linear infinite;
+  animation-duration: var(--petal-duration);
+  animation-delay: var(--petal-delay);
+  will-change: transform;
+}

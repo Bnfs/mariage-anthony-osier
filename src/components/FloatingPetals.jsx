@@ -1,5 +1,4 @@
 import { useMemo } from 'react'
-import { motion } from 'framer-motion'
 
 const PETALS = Array.from({ length: 20 }).map((_, i) => ({
   id: i,
@@ -7,7 +6,7 @@ const PETALS = Array.from({ length: 20 }).map((_, i) => ({
   size: 28 + ((i * 37) % 34),
   duration: 14 + ((i * 13) % 10),
   delay: (i * 1.7) % 8,
-  drift: (i % 2 === 0 ? 1 : -1) * (20 + (i * 11) % 30),
+  drift: (i % 2 === 0 ? 1 : -1) * (20 + ((i * 11) % 30)),
 }))
 
 let gradId = 0
@@ -49,25 +48,18 @@ export default function FloatingPetals() {
   return (
     <div className="pointer-events-none fixed inset-0 z-10 overflow-hidden" aria-hidden="true">
       {PETALS.map((p) => (
-        <motion.div
+        <div
           key={p.id}
-          className="absolute"
-          style={{ left: `${p.left}%`, top: -40 }}
-          initial={{ y: -40, x: 0, rotate: 0 }}
-          animate={{
-            y: ['0vh', '110vh'],
-            x: [0, p.drift, 0],
-            rotate: [0, 180, 360],
-          }}
-          transition={{
-            duration: p.duration,
-            delay: p.delay,
-            repeat: Infinity,
-            ease: 'linear',
+          className="petal-fall absolute top-0"
+          style={{
+            left: `${p.left}%`,
+            '--petal-drift': `${p.drift}px`,
+            '--petal-duration': `${p.duration}s`,
+            '--petal-delay': `${p.delay}s`,
           }}
         >
           <Petal size={p.size} />
-        </motion.div>
+        </div>
       ))}
     </div>
   )

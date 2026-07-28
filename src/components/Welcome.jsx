@@ -11,8 +11,12 @@ export default function Welcome({ target }) {
       <div className="max-w-xs mx-auto">
         <Reveal>
           <p className="font-display italic text-lg text-cocoa leading-relaxed">
-            « Deux familles, une seule alliance. Deux histoires, un seul chemin.
-            Venez célébrer avec nous l&apos;union de nos traditions et de notre amour. »
+            « Nous venons de deux chemins différents, avec nos blessures,
+            nos combats, nos rêves…
+          </p>
+          <p className="font-display italic text-lg text-cocoa leading-relaxed mt-4">
+            Mais Dieu, le temps et l&apos;amour ont uni nos pas pour écrire
+            une seule histoire. »
           </p>
         </Reveal>
 

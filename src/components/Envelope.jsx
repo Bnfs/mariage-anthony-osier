@@ -10,13 +10,13 @@ export default function Envelope({ onOpen }) {
   const handleClick = () => {
     if (opening) return
     setOpening(true)
-    setTimeout(onOpen, 1100)
+    setTimeout(onOpen, 650)
   }
 
   return (
     <motion.div
       animate={{ opacity: opening ? 0 : 1 }}
-      transition={{ duration: 0.5, delay: opening ? 0.6 : 0 }}
+      transition={{ duration: 0.35, delay: opening ? 0.35 : 0 }}
       className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden bg-ivory px-6 py-10"
     >
       <FloatingPetals />
@@ -30,7 +30,7 @@ export default function Envelope({ onOpen }) {
           y: 0,
           scale: opening ? 1.08 : 1,
         }}
-        transition={{ duration: 0.6 }}
+        transition={{ duration: 0.4 }}
         className="relative z-10 w-full max-w-xs border-2 border-mustard/70 rounded-t-full rounded-b-lg pt-10 pb-8 px-6 flex flex-col items-center bg-cream/60 backdrop-blur-sm"
       >
         <div className="relative w-28 h-28 flex items-center justify-center mb-8">
@@ -71,7 +71,7 @@ export default function Envelope({ onOpen }) {
             className="absolute inset-x-0 top-0 h-1/2 bg-cocoa origin-top"
             style={{ clipPath: 'polygon(0 0, 100% 0, 50% 100%)' }}
             animate={{ rotateX: opening ? -175 : 0 }}
-            transition={{ duration: 0.8, ease: 'easeIn' }}
+            transition={{ duration: 0.5, ease: 'easeIn' }}
           />
           <motion.div
             className="absolute inset-0 flex items-center justify-center"
