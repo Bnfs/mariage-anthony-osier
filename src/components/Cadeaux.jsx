@@ -1,6 +1,8 @@
 import WaxPattern from './WaxPattern'
 import Reveal from './Reveal'
 import AfricanMotif from './AfricanMotif'
+import orangeMoneyIcon from '../assets/orange-money.svg'
+import revolutIcon from '../assets/revolut.svg'
 
 export default function Cadeaux() {
   return (
@@ -21,13 +23,25 @@ export default function Cadeaux() {
             souhaitez toutefois nous témoigner une attention, un numéro
             Orange Money et un lien Revolut sont mis à votre disposition.
           </p>
-          <div className="mt-8 md:mt-10 inline-flex flex-col items-center gap-1 border-2 border-mustard/50 rounded-2xl bg-white px-8 py-5 shadow-sm">
-            <span className="text-xs uppercase tracking-widest text-cocoa-light">
-              Orange Money
-            </span>
-            <span className="font-display text-lg md:text-xl text-cocoa">
-              +237 6 95 09 66 62
-            </span>
+          <div className="mt-8 md:mt-10 flex flex-wrap items-stretch justify-center gap-4">
+            <div className="inline-flex flex-col items-center gap-2 border-2 border-mustard/50 rounded-2xl bg-white px-8 py-5 shadow-sm">
+              <img src={orangeMoneyIcon} alt="Orange Money" className="h-6 md:h-7" />
+              <span className="font-display text-lg md:text-xl text-cocoa">
+                +237 6 95 09 66 62
+              </span>
+            </div>
+
+            <a
+              href="https://revolut.me/edouardwilly"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex flex-col items-center gap-2 border-2 border-mustard/50 rounded-2xl bg-white px-8 py-5 shadow-sm hover:bg-mustard/10 transition-colors"
+            >
+              <img src={revolutIcon} alt="Revolut" className="h-6 md:h-7" />
+              <span className="text-xs uppercase tracking-widest text-cocoa-light">
+                Envoyer via Revolut
+              </span>
+            </a>
           </div>
         </div>
       </Reveal>
