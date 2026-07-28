@@ -4,7 +4,6 @@ import { motion, useScroll, useTransform } from 'framer-motion'
 import WaxPattern from '../components/WaxPattern'
 import Laurel from '../components/Laurel'
 import Reveal from '../components/Reveal'
-import FloatingPetals from '../components/FloatingPetals'
 import AfricanMotif from '../components/AfricanMotif'
 import tableSettingImg from '../assets/table-setting.jpg'
 import calabashImg from '../assets/calabash.jpg'
@@ -65,7 +64,6 @@ export default function MenuPage() {
 
   return (
     <main className="relative min-h-screen bg-ivory text-cocoa overflow-hidden">
-      <FloatingPetals />
       <WaxPattern className="absolute top-4 left-3 w-16 h-16 md:w-24 md:h-24 -rotate-12" />
       <WaxPattern className="absolute top-[45%] right-2 w-14 h-14 md:w-20 md:h-20 rotate-12 opacity-60" />
       <WaxPattern className="absolute bottom-10 right-3 w-16 h-16 md:w-24 md:h-24 rotate-45" />

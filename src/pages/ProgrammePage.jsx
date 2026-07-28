@@ -4,7 +4,6 @@ import { motion, useScroll, useTransform } from 'framer-motion'
 import WaxPattern from '../components/WaxPattern'
 import Laurel from '../components/Laurel'
 import Reveal from '../components/Reveal'
-import FloatingPetals from '../components/FloatingPetals'
 import AfricanMotif from '../components/AfricanMotif'
 import bouquetImg from '../assets/bouquet.jpg'
 import rosesHeaderImg from '../assets/roses-header.jpg'
@@ -12,21 +11,27 @@ import rosesHeaderImg from '../assets/roses-header.jpg'
 const TIMELINE = [
   {
     day: '14 Août 2026',
-    time: 'Horaire à venir',
-    title: 'Cérémonie Traditionnelle',
-    subtitle: 'La Dot',
+    time: '14h00',
+    title: "Accueil de la famille d'Anthony",
+    subtitle: 'Danse traditionnelle & installation',
+  },
+  {
+    day: '14 Août 2026',
+    time: '15h30 – 17h30',
+    title: 'Cérémonie de la Dot',
+    subtitle: 'Demande de main puis cérémonie de dot',
+  },
+  {
+    day: '14 Août 2026',
+    time: '18h00',
+    title: 'Agapes',
+    subtitle: 'Piano Bar, danse & prestations des artistes',
   },
   {
     day: '15 Août 2026',
-    time: 'Horaire à venir',
-    title: 'Cérémonie',
-    subtitle: 'Civile / Religieuse',
-  },
-  {
-    day: '15 Août 2026',
-    time: 'Horaire à venir',
-    title: 'Réception & Soirée',
-    subtitle: 'Fête',
+    time: 'Soirée',
+    title: 'Réception',
+    subtitle: 'United Hotel · Sur invitation',
   },
 ]
 
@@ -34,14 +39,14 @@ const CALENDAR_URL =
   'https://calendar.google.com/calendar/render?action=TEMPLATE' +
   '&text=' + encodeURIComponent('Mariage Anthony & Osier') +
   '&dates=20260814/20260816' +
-  '&details=' + encodeURIComponent('Cérémonie traditionnelle (14 août) puis mariage civil/religieux et réception (15 août).') +
-  '&location=' + encodeURIComponent('Yaoundé, Cameroun')
+  '&details=' + encodeURIComponent("14 août : accueil, danse traditionnelle et cérémonie de la dot (Nsimeyong, Terre Rouge, Yaoundé). 15 août : réception en soirée à United Hotel, sur invitation.") +
+  '&location=' + encodeURIComponent('Nsimeyong, Terre Rouge, Yaoundé, Cameroun')
 
 const PALETTE = [
-  { name: 'Marron', color: '#3b2318' },
-  { name: 'Crème', color: '#faf3e8' },
-  { name: 'Corail', color: '#d94a24' },
-  { name: 'Moutarde', color: '#d99a24' },
+  { name: 'Champagne', color: '#d9b896' },
+  { name: 'Or Rose', color: '#c9a877' },
+  { name: 'Blush', color: '#e3b7ae' },
+  { name: 'Ivoire', color: '#f5ede4' },
 ]
 
 export default function ProgrammePage() {
@@ -55,7 +60,6 @@ export default function ProgrammePage() {
 
   return (
     <main className="relative min-h-screen bg-ivory text-cocoa overflow-hidden">
-      <FloatingPetals />
       <WaxPattern className="absolute top-4 left-3 w-16 h-16 md:w-24 md:h-24 -rotate-12" />
       <WaxPattern className="absolute top-[38%] right-2 w-14 h-14 md:w-20 md:h-20 rotate-12 opacity-60" />
       <WaxPattern className="absolute top-[62%] left-2 w-14 h-14 md:w-20 md:h-20 -rotate-45 opacity-60" />
@@ -187,14 +191,16 @@ export default function ProgrammePage() {
           <div className="relative mt-14 md:mt-20 rounded-2xl border-2 border-mustard/50 bg-white px-6 md:px-12 py-8 md:py-12 text-center overflow-hidden shadow-md">
             <WaxPattern className="absolute top-2 right-2 w-16 h-16 md:w-24 md:h-24 opacity-70" />
             <h2 className="font-script text-3xl md:text-5xl text-coral mb-3 md:mb-5">Dress-code</h2>
-            <p className="text-sm md:text-lg text-cocoa-light leading-relaxed mb-4 md:mb-6 md:max-w-md md:mx-auto">
-              Notre mariage célèbre nos traditions africaines. Pour une belle
-              harmonie, venez parés de vos plus beaux atours dans un esprit
+            <p className="text-sm md:text-lg text-cocoa-light leading-relaxed mb-1">
+              Chic et Élégant
+            </p>
+            <p className="text-sm md:text-lg text-cocoa-light leading-relaxed mb-4 md:mb-6">
+              Tenue de soirée et de cérémonie
             </p>
             <div className="flex items-center justify-center gap-2 mb-6 md:mb-8">
               <Laurel className="w-9 h-4 md:w-12 md:h-5" />
               <p className="font-script text-2xl md:text-4xl text-cocoa px-1">
-                Élégance Traditionnelle
+                Champagne &amp; Timeless Elegance
               </p>
               <Laurel className="w-9 h-4 md:w-12 md:h-5" flip />
             </div>

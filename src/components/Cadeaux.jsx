@@ -14,12 +14,21 @@ export default function Cadeaux() {
 
         <div className="max-w-xs sm:max-w-sm md:max-w-xl mx-auto">
           <p className="font-display italic text-lg md:text-2xl text-cocoa leading-relaxed">
-            Votre présence est le plus beau des cadeaux.
+            Pas de liste de cadeaux !
           </p>
           <p className="mt-4 md:mt-6 text-sm md:text-lg text-cocoa-light leading-relaxed">
-            Si toutefois vous souhaitez nous gâter, les modalités
-            seront communiquées prochainement.
+            Votre présence à nos côtés sera notre plus beau cadeau. Si vous
+            souhaitez toutefois nous témoigner une attention, un numéro
+            Orange Money et un lien Revolut sont mis à votre disposition.
           </p>
+          <div className="mt-8 md:mt-10 inline-flex flex-col items-center gap-1 border-2 border-mustard/50 rounded-2xl bg-white px-8 py-5 shadow-sm">
+            <span className="text-xs uppercase tracking-widest text-cocoa-light">
+              Orange Money
+            </span>
+            <span className="font-display text-lg md:text-xl text-cocoa">
+              +237 6 95 09 66 62
+            </span>
+          </div>
         </div>
       </Reveal>
     </section>
