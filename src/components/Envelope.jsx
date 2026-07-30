@@ -153,7 +153,7 @@ export default function Envelope({ onOpen }) {
         <p className="mt-8 md:mt-10 font-display italic text-cocoa-light text-sm md:text-lg text-center">
           Anthony &amp; Osier Andréa vous invitent
         </p>
-        <p className="mt-1 text-xs md:text-sm uppercase tracking-[0.15em] text-coral font-medium text-center">
+        <p className="mt-2 text-sm md:text-lg uppercase tracking-[0.05em] text-cocoa font-bold text-center leading-snug px-2">
           Nsimeyong, Terre Rouge (lieu-dit stade), Yaoundé
         </p>
       </motion.div>
