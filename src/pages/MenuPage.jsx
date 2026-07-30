@@ -6,18 +6,22 @@ import Laurel from '../components/Laurel'
 import Reveal from '../components/Reveal'
 import AfricanMotif from '../components/AfricanMotif'
 import tableSettingImg from '../assets/table-setting.jpg'
-import calabashImg from '../assets/calabash.jpg'
-import djembeImg from '../assets/djembe.jpg'
+import menuEntreesImg from '../assets/menu-entrees.jpg'
+import menuPlatsImg from '../assets/menu-plats.jpg'
+import menuAccompagnementsImg from '../assets/menu-accompagnements.jpg'
+import menuDessertsImg from '../assets/menu-desserts.jpg'
 
 const CATEGORIES = [
   {
     name: 'Les Entrées',
     motif: 'calabash',
+    photo: menuEntreesImg,
     items: ['Salade charcutière', 'Salade russe', 'Quiche Lorraine'],
   },
   {
     name: 'Les Plats Chauds',
     motif: 'djembe',
+    photo: menuPlatsImg,
     items: [
       'Ndomba de porc',
       "Ndomba de poisson d'eau douce",
@@ -40,6 +44,7 @@ const CATEGORIES = [
   {
     name: 'Les Accompagnements',
     motif: 'palm',
+    photo: menuAccompagnementsImg,
     items: [
       'Plantains mûrs frits',
       'Plantain pilé (Mintouba)',
@@ -57,6 +62,7 @@ const CATEGORIES = [
   {
     name: 'Les Desserts',
     motif: 'mask',
+    photo: menuDessertsImg,
     items: ['Cascade de fruits', 'Pâtisserie variée'],
   },
 ]
@@ -148,36 +154,19 @@ export default function MenuPage() {
                   ))}
                 </ul>
               </div>
-              {i === 0 && (
-                <Reveal delay={0.15} className="flex justify-center my-10 md:my-14">
-                  <div className="relative w-24 h-24 md:w-32 md:h-32">
-                    <div
-                      aria-hidden="true"
-                      className="absolute inset-0 rounded-full bg-coral/25 blur-lg"
-                    />
-                    <img
-                      src={calabashImg}
-                      alt=""
-                      className="relative w-full h-full rounded-full object-cover border-4 border-mustard shadow-md"
-                    />
-                  </div>
-                </Reveal>
-              )}
-              {i === 2 && (
-                <Reveal delay={0.15} className="flex justify-center my-10 md:my-14">
-                  <div className="relative w-24 h-24 md:w-32 md:h-32">
-                    <div
-                      aria-hidden="true"
-                      className="absolute inset-0 rounded-full bg-coral/25 blur-lg"
-                    />
-                    <img
-                      src={djembeImg}
-                      alt=""
-                      className="relative w-full h-full rounded-full object-cover border-4 border-mustard shadow-md"
-                    />
-                  </div>
-                </Reveal>
-              )}
+              <Reveal delay={0.15} className="flex justify-center mt-6 md:mt-8">
+                <div className="relative w-24 h-24 md:w-32 md:h-32">
+                  <div
+                    aria-hidden="true"
+                    className="absolute inset-0 rounded-full bg-coral/25 blur-lg"
+                  />
+                  <img
+                    src={cat.photo}
+                    alt={cat.name}
+                    className="relative w-full h-full rounded-full object-cover border-4 border-mustard shadow-md"
+                  />
+                </div>
+              </Reveal>
             </Reveal>
           ))}
         </div>
