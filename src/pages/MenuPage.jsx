@@ -124,7 +124,7 @@ export default function MenuPage() {
             <span className="h-px w-8 md:w-12 bg-mustard" />
           </div>
           <p className="text-xs md:text-sm uppercase tracking-[0.2em] text-coral mt-2 mb-10 md:mb-14">
-            Terre Rouge, Nsimeyong &amp; United Hotel · Yaoundé
+            Nsimeyong, Terre Rouge (lieu-dit stade), Yaoundé
           </p>
         </Reveal>
 
