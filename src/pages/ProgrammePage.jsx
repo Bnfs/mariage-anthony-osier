@@ -87,10 +87,12 @@ export default function ProgrammePage() {
               style={{ scale: headerScale, y: headerY }}
               className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 md:border-[6px] border-mustard shadow-xl"
             >
-              <img
+              <motion.img
                 src={coupleHotelImg}
                 alt="Anthony et Osier Andréa"
                 className="w-full h-full object-cover object-top"
+                animate={{ scale: [1, 1.05, 1] }}
+                transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
               />
             </motion.div>
           </div>

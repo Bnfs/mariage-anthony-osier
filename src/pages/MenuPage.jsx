@@ -102,10 +102,12 @@ export default function MenuPage() {
               style={{ scale: headerScale, y: headerY }}
               className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 md:border-[6px] border-mustard shadow-xl"
             >
-              <img
+              <motion.img
                 src={tableSettingImg}
                 alt=""
                 className="w-full h-full object-cover"
+                animate={{ scale: [1, 1.05, 1] }}
+                transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
               />
             </motion.div>
           </div>
@@ -160,10 +162,12 @@ export default function MenuPage() {
                     aria-hidden="true"
                     className="absolute inset-0 rounded-full bg-coral/25 blur-lg"
                   />
-                  <img
+                  <motion.img
                     src={cat.photo}
                     alt={cat.name}
                     className="relative w-full h-full rounded-full object-cover border-4 border-mustard shadow-md"
+                    animate={{ scale: [1, 1.05, 1] }}
+                    transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut', delay: i * 0.4 }}
                   />
                 </div>
               </Reveal>

@@ -32,10 +32,12 @@ export default function Hero() {
             transition={{ duration: 0.8, ease: 'easeOut' }}
             className="relative w-60 h-60 md:w-80 md:h-80 rounded-full border-4 md:border-[6px] border-mustard overflow-hidden bg-white shadow-xl"
           >
-            <img
+            <motion.img
               src={coupleImg}
               alt="Anthony et Osier Andréa"
               className="w-full h-full object-cover"
+              animate={{ scale: [1, 1.05, 1] }}
+              transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
             />
           </motion.div>
         </div>
