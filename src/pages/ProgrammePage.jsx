@@ -5,8 +5,8 @@ import WaxPattern from '../components/WaxPattern'
 import Laurel from '../components/Laurel'
 import Reveal from '../components/Reveal'
 import AfricanMotif from '../components/AfricanMotif'
-import bouquetImg from '../assets/bouquet.jpg'
-import rosesHeaderImg from '../assets/roses-header.jpg'
+import coupleHotelImg from '../assets/couple-hotel.jpg'
+import coupleRiversideImg from '../assets/couple-riverside.jpg'
 
 const TIMELINE = [
   {
@@ -88,9 +88,9 @@ export default function ProgrammePage() {
               className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 md:border-[6px] border-mustard shadow-xl"
             >
               <img
-                src={rosesHeaderImg}
-                alt=""
-                className="w-full h-full object-cover"
+                src={coupleHotelImg}
+                alt="Anthony et Osier Andréa"
+                className="w-full h-full object-cover object-top"
               />
             </motion.div>
           </div>
@@ -231,9 +231,9 @@ export default function ProgrammePage() {
               className="absolute -inset-2 rounded-2xl bg-coral/20 blur-xl"
             />
             <img
-              src={bouquetImg}
-              alt="Bouquet de mariage"
-              className="relative w-full rounded-2xl shadow-lg object-cover h-64 md:h-96 border-2 border-mustard/40"
+              src={coupleRiversideImg}
+              alt="Anthony et Osier Andréa"
+              className="relative w-full rounded-2xl shadow-lg object-cover object-top h-64 md:h-96 border-2 border-mustard/40"
             />
           </div>
         </Reveal>
