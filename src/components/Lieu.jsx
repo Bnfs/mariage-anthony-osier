@@ -21,7 +21,7 @@ export default function Lieu() {
             <p className="text-xs uppercase tracking-widest text-mustard mb-2">14 Août 2026</p>
             <p className="font-display italic text-xl md:text-3xl text-cocoa mb-1">Terre Rouge</p>
             <p className="text-sm md:text-base uppercase tracking-widest text-cocoa-light mb-6">
-              Nsimeyong, Yaoundé
+              Nsimeyong (lieu-dit stade), Yaoundé
             </p>
 
             <motion.a
