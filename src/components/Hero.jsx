@@ -76,7 +76,7 @@ export default function Hero() {
             S&apos;unissent pour la vie
           </p>
           <p className="mt-1 md:mt-2 text-xs md:text-sm uppercase tracking-widest text-cocoa-light">
-            Yaoundé, Cameroun
+            Terre Rouge, Nsimeyong &amp; United Hotel · Yaoundé
           </p>
         </Reveal>
       </div>

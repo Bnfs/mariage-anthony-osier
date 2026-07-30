@@ -154,7 +154,7 @@ export default function Envelope({ onOpen }) {
           Anthony &amp; Osier Andréa vous invitent
         </p>
         <p className="mt-1 text-[10px] md:text-xs uppercase tracking-[0.2em] text-mustard text-center">
-          Terre Rouge &amp; United Hotel · Yaoundé
+          Terre Rouge, Nsimeyong &amp; United Hotel · Yaoundé
         </p>
       </motion.div>
     </motion.div>
