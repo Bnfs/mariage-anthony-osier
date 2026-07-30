@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import WaxPattern from './WaxPattern'
 import FloatingPetals from './FloatingPetals'
-import coupleImg from '../assets/couple.jpeg'
+import coupleImg from '../assets/couple-envelope.jpg'
 import goldFabricBg from '../assets/gold-fabric-bg.jpg'
 
 export default function Envelope({ onOpen }) {

@@ -2,8 +2,7 @@ import { motion } from 'framer-motion'
 import WaxPattern from './WaxPattern'
 import Reveal from './Reveal'
 import NameReveal from './NameReveal'
-import coupleImg from '../assets/couple.jpeg'
-import handsRingImg from '../assets/hands-ring.jpg'
+import coupleImg from '../assets/couple-hero.jpg'
 import AfricanMotif from './AfricanMotif'
 
 export default function Hero() {
@@ -45,19 +44,19 @@ export default function Hero() {
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.5 }}
-          className="relative -mt-6 md:-mt-8 mx-auto w-fit bg-white/95 border border-mustard/60 rounded-full px-6 md:px-10 py-2 md:py-3 shadow-md"
+          className="relative -mt-6 md:-mt-8 mx-auto w-fit max-w-[90vw] bg-white/95 border border-mustard/60 rounded-[2rem] px-5 md:px-10 py-3 md:py-4 shadow-md"
         >
-          <div className="flex items-center gap-2 md:gap-3">
+          <div className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 md:gap-x-3">
             <NameReveal
               text="Anthony"
               delay={0.7}
-              className="font-script text-3xl md:text-5xl leading-none text-cocoa"
+              className="font-script text-2xl md:text-5xl leading-none text-cocoa"
             />
-            <span className="font-display italic text-lg md:text-2xl text-coral">&amp;</span>
+            <span className="font-display italic text-base md:text-2xl text-coral">&amp;</span>
             <NameReveal
               text="Osier Andréa"
               delay={1.1}
-              className="font-script text-3xl md:text-5xl leading-none text-cocoa"
+              className="font-script text-2xl md:text-5xl leading-none text-cocoa"
             />
           </div>
         </motion.div>
@@ -79,20 +78,6 @@ export default function Hero() {
           <p className="mt-1 md:mt-2 text-xs md:text-sm uppercase tracking-widest text-cocoa-light">
             Yaoundé, Cameroun
           </p>
-        </Reveal>
-
-        <Reveal delay={0.3}>
-          <div className="relative mt-10 md:mt-14 max-w-xs sm:max-w-sm md:max-w-lg lg:max-w-xl mx-auto">
-            <div
-              aria-hidden="true"
-              className="absolute -inset-2 rounded-2xl bg-coral/20 blur-xl"
-            />
-            <img
-              src={handsRingImg}
-              alt=""
-              className="relative w-full rounded-2xl shadow-lg object-cover h-48 md:h-64 border-2 border-mustard/40"
-            />
-          </div>
         </Reveal>
       </div>
     </section>
