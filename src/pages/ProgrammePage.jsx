@@ -27,19 +27,13 @@ const TIMELINE = [
     title: 'Agapes',
     subtitle: 'Piano Bar, danse & prestations des artistes',
   },
-  {
-    day: '15 Août 2026',
-    time: 'Soirée',
-    title: 'Réception',
-    subtitle: 'United Hotel · Sur invitation',
-  },
 ]
 
 const CALENDAR_URL =
   'https://calendar.google.com/calendar/render?action=TEMPLATE' +
   '&text=' + encodeURIComponent('Mariage Anthony & Osier Andréa') +
-  '&dates=20260814/20260816' +
-  '&details=' + encodeURIComponent("14 août : accueil, danse traditionnelle et cérémonie de la dot (Nsimeyong, Terre Rouge, Yaoundé). 15 août : réception en soirée à United Hotel, sur invitation.") +
+  '&dates=20260814/20260815' +
+  '&details=' + encodeURIComponent("Accueil, danse traditionnelle et cérémonie de la dot (Nsimeyong, Terre Rouge, Yaoundé).") +
   '&location=' + encodeURIComponent('Nsimeyong, Terre Rouge, Yaoundé, Cameroun')
 
 const PALETTE = [
@@ -104,7 +98,7 @@ export default function ProgrammePage() {
           <div className="flex items-center justify-center gap-3 mt-6 md:mt-8">
             <span className="h-px w-8 md:w-12 bg-mustard" />
             <span className="font-display text-lg md:text-2xl tracking-widest text-cocoa">
-              14 &amp; 15 Août 2026
+              14 Août 2026
             </span>
             <span className="h-px w-8 md:w-12 bg-mustard" />
           </div>
@@ -174,7 +168,7 @@ export default function ProgrammePage() {
 
             <motion.a
               href={`https://wa.me/?text=${encodeURIComponent(
-                'Anthony & Osier Andréa se marient 💍 Découvrez le programme du mariage (14 & 15 Août 2026, Yaoundé) : ' +
+                'Anthony & Osier Andréa se marient 💍 Découvrez le programme du mariage (14 Août 2026, Yaoundé) : ' +
                   (typeof window !== 'undefined' ? window.location.href : '')
               )}`}
               target="_blank"

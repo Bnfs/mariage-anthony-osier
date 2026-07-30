@@ -27,6 +27,18 @@ const ICONS = {
       <path d="M10 15c.7.6 1.3.6 2 0 .7.6 1.3.6 2 0" strokeLinecap="round" />
     </>
   ),
+  necklace: (
+    <>
+      <path d="M4 5c0 7 4 11 8 11s8-4 8-11" strokeLinecap="round" />
+      <circle cx="4" cy="5" r="1.1" fill="#3b2318" stroke="none" />
+      <circle cx="6.2" cy="9.2" r="1.1" fill="#3b2318" stroke="none" />
+      <circle cx="9" cy="12.6" r="1.1" fill="#3b2318" stroke="none" />
+      <circle cx="15" cy="12.6" r="1.1" fill="#3b2318" stroke="none" />
+      <circle cx="17.8" cy="9.2" r="1.1" fill="#3b2318" stroke="none" />
+      <circle cx="20" cy="5" r="1.1" fill="#3b2318" stroke="none" />
+      <path d="M11 15.5l1 2.5 1-2.5" fill="none" strokeLinejoin="round" />
+    </>
+  ),
 }
 
 export default function AfricanMotif({ type = 'calabash', className = '' }) {

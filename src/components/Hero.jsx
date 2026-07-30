@@ -66,8 +66,6 @@ export default function Hero() {
         <Reveal delay={0.15}>
           <div className="mt-8 md:mt-12 flex items-center justify-center gap-4 md:gap-6 font-display text-3xl md:text-5xl text-coral">
             <span>14</span>
-            <span className="text-mustard text-lg md:text-2xl">&</span>
-            <span>15</span>
             <span className="text-mustard text-lg md:text-2xl mx-1">/</span>
             <span>08</span>
             <span className="text-mustard text-lg md:text-2xl mx-1">/</span>
@@ -85,7 +83,7 @@ export default function Hero() {
               Nos traditions Ekang &amp; Baluba
             </p>
             <p className="text-xs md:text-sm uppercase tracking-[0.2em] text-cocoa">
-              Chic &amp; Glamour
+              Chic &amp; Glamour en marron et blanc
             </p>
           </div>
         </Reveal>

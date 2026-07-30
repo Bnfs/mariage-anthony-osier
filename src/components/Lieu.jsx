@@ -41,13 +41,6 @@ export default function Lieu() {
               Voir sur Google Maps
             </motion.a>
           </div>
-
-          <div>
-            <p className="text-xs uppercase tracking-widest text-mustard mb-2">15 Août 2026 · Soirée</p>
-            <p className="font-display italic text-xl md:text-3xl text-cocoa mb-1">United Hotel</p>
-            <p className="text-sm md:text-base uppercase tracking-widest text-cocoa-light mb-2">Yaoundé</p>
-            <p className="text-sm md:text-base text-coral italic">Sur invitation</p>
-          </div>
         </div>
       </Reveal>
     </section>
