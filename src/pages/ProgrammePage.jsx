@@ -43,10 +43,8 @@ const CALENDAR_URL =
   '&location=' + encodeURIComponent('Nsimeyong, Terre Rouge, Yaoundé, Cameroun')
 
 const PALETTE = [
-  { name: 'Champagne', color: '#d9b896' },
-  { name: 'Or Rose', color: '#c9a877' },
-  { name: 'Blush', color: '#e3b7ae' },
-  { name: 'Ivoire', color: '#f5ede4' },
+  { name: 'Marron', color: '#3b2318' },
+  { name: 'Blanc', color: '#ffffff' },
 ]
 
 export default function ProgrammePage() {
@@ -197,16 +195,13 @@ export default function ProgrammePage() {
           <div className="relative mt-14 md:mt-20 rounded-2xl border-2 border-mustard/50 bg-white px-6 md:px-12 py-8 md:py-12 text-center overflow-hidden shadow-md">
             <WaxPattern className="absolute top-2 right-2 w-16 h-16 md:w-24 md:h-24 opacity-70" />
             <h2 className="font-script text-3xl md:text-5xl text-coral mb-3 md:mb-5">Dress-code</h2>
-            <p className="text-sm md:text-lg text-cocoa-light leading-relaxed mb-1">
-              Chic et Élégant
-            </p>
             <p className="text-sm md:text-lg text-cocoa-light leading-relaxed mb-4 md:mb-6">
-              Tenue de soirée et de cérémonie
+              Pagne du mariage ou tenue traditionnelle
             </p>
             <div className="flex items-center justify-center gap-2 mb-6 md:mb-8">
               <Laurel className="w-9 h-4 md:w-12 md:h-5" />
               <p className="font-script text-2xl md:text-4xl text-cocoa px-1">
-                Champagne &amp; Timeless Elegance
+                Chic &amp; Glamour
               </p>
               <Laurel className="w-9 h-4 md:w-12 md:h-5" flip />
             </div>

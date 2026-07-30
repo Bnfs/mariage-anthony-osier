@@ -80,6 +80,12 @@ export default function Hero() {
           <p className="mt-1 md:mt-2 text-xs md:text-sm uppercase tracking-widest text-cocoa-light">
             Nsimeyong, Terre Rouge (lieu-dit stade), Yaoundé
           </p>
+          <p className="mt-4 md:mt-6 font-script text-xl md:text-3xl text-coral">
+            Nos traditions Ekang &amp; Baluba
+          </p>
+          <p className="text-xs md:text-sm uppercase tracking-[0.2em] text-cocoa-light">
+            Chic &amp; Glamour
+          </p>
         </Reveal>
       </div>
     </section>
