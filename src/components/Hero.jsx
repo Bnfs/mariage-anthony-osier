@@ -16,7 +16,7 @@ export default function Hero() {
       <div className="relative max-w-xs sm:max-w-sm md:max-w-2xl lg:max-w-3xl mx-auto text-center">
         <Reveal>
           <p className="uppercase tracking-[0.3em] text-xs md:text-sm text-coral mb-6 md:mb-10">
-            Cérémonie de mariage traditionnelle
+            Cérémonie de mariage coutumier
           </p>
         </Reveal>
 

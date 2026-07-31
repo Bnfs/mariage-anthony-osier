@@ -95,7 +95,7 @@ export default function ProgrammePage() {
             <Laurel className="w-10 h-4 md:w-14 md:h-6" flip />
           </div>
           <p className="text-center text-xs md:text-sm uppercase tracking-[0.2em] text-cocoa-light mt-2">
-            Cérémonie de mariage traditionnelle
+            Cérémonie de mariage coutumier
           </p>
 
           <div className="flex items-center justify-center gap-3 mt-6 md:mt-8">
