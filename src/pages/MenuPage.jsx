@@ -43,7 +43,7 @@ const CATEGORIES = [
   },
   {
     name: 'Les Accompagnements',
-    motif: 'palm',
+    motif: 'basket',
     photo: menuAccompagnementsImg,
     items: [
       'Plantains mûrs frits',
@@ -61,7 +61,7 @@ const CATEGORIES = [
   },
   {
     name: 'Les Desserts',
-    motif: 'mask',
+    motif: 'cowrie',
     photo: menuDessertsImg,
     items: ['Cascade de fruits', 'Pâtisserie variée'],
   },
@@ -136,7 +136,7 @@ export default function MenuPage() {
               <div className="relative">
                 <AfricanMotif
                   type={cat.motif}
-                  className={`absolute -top-2 w-8 h-8 md:w-11 md:h-11 opacity-70 ${
+                  className={`absolute -top-2 w-10 h-10 md:w-14 md:h-14 opacity-80 ${
                     i % 2 === 0 ? 'left-0 md:left-4' : 'right-0 md:right-4'
                   }`}
                 />

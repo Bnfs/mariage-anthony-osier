@@ -8,7 +8,7 @@ export default function Welcome({ target }) {
     <section className="relative bg-white px-6 py-14 md:py-24 text-center overflow-hidden">
       <WaxPattern className="absolute top-4 right-2 w-20 h-20 md:w-28 md:h-28" />
       <WaxPattern className="absolute bottom-4 left-2 w-24 h-24 md:w-32 md:h-32 rotate-90" />
-      <AfricanMotif type="necklace" className="absolute top-1/2 left-3 -translate-y-1/2 w-9 h-9 md:w-12 md:h-12 opacity-60" />
+      <AfricanMotif type="necklace" className="absolute top-1/2 left-3 -translate-y-1/2 w-11 h-11 md:w-16 md:h-16 opacity-80" />
 
       <div className="max-w-xs sm:max-w-sm md:max-w-2xl lg:max-w-3xl mx-auto">
         <Reveal>

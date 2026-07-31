@@ -110,6 +110,10 @@ export default function Envelope({ onOpen }) {
           </motion.div>
         </div>
 
+        <p className="font-display italic text-cocoa text-sm md:text-lg text-center mb-6 md:mb-8">
+          Deux familles, une union, une tradition.
+        </p>
+
         <p className="text-cocoa-light uppercase tracking-[0.2em] text-xs md:text-sm mb-6 md:mb-8 text-center">
           Cliquez sur l&apos;enveloppe
         </p>
@@ -156,6 +160,20 @@ export default function Envelope({ onOpen }) {
         <p className="mt-2 text-sm md:text-lg uppercase tracking-[0.05em] text-cocoa font-bold text-center leading-snug px-2">
           Nsimeyong, Terre Rouge (lieu-dit stade), Yaoundé
         </p>
+
+        <div className="mt-6 md:mt-8 pt-6 md:pt-8 border-t border-mustard/40 w-full">
+          <p className="font-display italic text-cocoa-light text-xs md:text-base text-center leading-relaxed">
+            « Il n&apos;y a qu&apos;un bonheur dans la vie, c&apos;est d&apos;aimer
+            et de se sentir aimé. »
+          </p>
+          <p className="mt-4 font-display italic text-cocoa text-xs md:text-base text-center leading-relaxed">
+            « Celui qui trouve une femme trouve le bonheur ; c&apos;est une
+            grâce qu&apos;il obtient de l&apos;Éternel. »
+          </p>
+          <p className="mt-1 text-cocoa-light text-[10px] md:text-xs uppercase tracking-widest text-center">
+            Proverbes 18:22
+          </p>
+        </div>
       </motion.div>
     </motion.div>
   )

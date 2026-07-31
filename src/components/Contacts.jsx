@@ -20,7 +20,7 @@ export default function Contacts() {
     <section id="contacts" className="relative bg-ivory px-6 py-16 md:py-24 text-center scroll-mt-6 overflow-hidden">
       <WaxPattern className="absolute top-2 left-2 w-20 h-20 md:w-28 md:h-28 -rotate-12" />
       <WaxPattern className="absolute bottom-2 right-2 w-20 h-20 md:w-28 md:h-28 rotate-45" />
-      <AfricanMotif type="djembe" className="absolute top-1/2 left-3 -translate-y-1/2 w-9 h-9 md:w-12 md:h-12 opacity-60" />
+      <AfricanMotif type="sandal" className="absolute top-1/2 left-3 -translate-y-1/2 w-11 h-11 md:w-16 md:h-16 opacity-80" />
 
       <Reveal>
         <h2 className="font-display text-3xl md:text-5xl text-coral mb-3 md:mb-4 tracking-wide">Contacts</h2>

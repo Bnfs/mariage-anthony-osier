@@ -57,8 +57,8 @@ export default function ProgrammePage() {
       <WaxPattern className="absolute top-[38%] right-2 w-14 h-14 md:w-20 md:h-20 rotate-12 opacity-60" />
       <WaxPattern className="absolute top-[62%] left-2 w-14 h-14 md:w-20 md:h-20 -rotate-45 opacity-60" />
       <WaxPattern className="absolute bottom-10 right-3 w-16 h-16 md:w-24 md:h-24 rotate-45" />
-      <AfricanMotif type="djembe" className="absolute top-[25%] left-3 w-9 h-9 md:w-12 md:h-12 opacity-60" />
-      <AfricanMotif type="mask" className="absolute top-[75%] right-3 w-9 h-9 md:w-12 md:h-12 opacity-60" />
+      <AfricanMotif type="djembe" className="absolute top-[25%] left-3 w-11 h-11 md:w-16 md:h-16 opacity-80" />
+      <AfricanMotif type="mask" className="absolute top-[75%] right-3 w-11 h-11 md:w-16 md:h-16 opacity-80" />
 
       <div className="relative max-w-xs sm:max-w-sm md:max-w-2xl lg:max-w-3xl mx-auto px-6 pt-8 md:pt-12 pb-16 md:pb-24">
         <button

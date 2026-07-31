@@ -10,8 +10,8 @@ export default function Hero() {
     <section className="relative bg-ivory text-cocoa pt-14 pb-16 md:pt-24 md:pb-24 px-6 overflow-hidden">
       <WaxPattern className="absolute top-2 left-2 w-24 h-24 md:w-36 md:h-36" />
       <WaxPattern className="absolute bottom-2 right-2 w-28 h-28 md:w-40 md:h-40 rotate-180" />
-      <AfricanMotif type="palm" className="absolute top-1/3 left-4 w-9 h-9 md:w-14 md:h-14 opacity-60" />
-      <AfricanMotif type="calabash" className="absolute top-2/3 right-4 w-9 h-9 md:w-14 md:h-14 opacity-60" />
+      <AfricanMotif type="palm" className="absolute top-1/3 left-4 w-11 h-11 md:w-16 md:h-16 opacity-80" />
+      <AfricanMotif type="calabash" className="absolute top-2/3 right-4 w-11 h-11 md:w-16 md:h-16 opacity-80" />
 
       <div className="relative max-w-xs sm:max-w-sm md:max-w-2xl lg:max-w-3xl mx-auto text-center">
         <Reveal>
