@@ -3,7 +3,7 @@ import WaxPattern from './WaxPattern'
 import Reveal from './Reveal'
 import AfricanMotif from './AfricanMotif'
 
-const PHONES = ['+237 6 95 09 66 62', '+237 6 98 29 91 12']
+const PHONES = ['+237 697 97 89 67', '+237 6 98 29 91 12']
 
 const PhoneIcon = (
   <path
