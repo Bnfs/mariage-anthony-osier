@@ -110,11 +110,11 @@ export default function Envelope({ onOpen }) {
           </motion.div>
         </div>
 
-        <p className="font-display italic text-cocoa text-xs md:text-lg text-center mb-2 md:mb-5 leading-snug">
+        <p className="font-display italic text-cocoa text-sm md:text-lg text-center mb-2 md:mb-5 leading-snug">
           Deux familles, une union, une tradition.
         </p>
 
-        <p className="text-cocoa-light uppercase tracking-[0.2em] text-[10px] md:text-sm mb-3 md:mb-6 text-center">
+        <p className="text-cocoa-light uppercase tracking-[0.2em] text-xs md:text-sm mb-3 md:mb-6 text-center">
           Cliquez sur l&apos;enveloppe
         </p>
 
@@ -154,23 +154,23 @@ export default function Envelope({ onOpen }) {
           </motion.div>
         </button>
 
-        <p className="mt-4 md:mt-6 font-display italic text-cocoa-light text-xs md:text-lg text-center">
+        <p className="mt-4 md:mt-6 font-display italic text-cocoa-light text-sm md:text-lg text-center">
           Anthony &amp; Osier Andréa vous invitent
         </p>
-        <p className="mt-1 text-xs md:text-lg uppercase tracking-[0.05em] text-cocoa font-bold text-center leading-snug px-2">
+        <p className="mt-1 text-sm md:text-lg uppercase tracking-[0.05em] text-cocoa font-bold text-center leading-snug px-2">
           Nsimeyong, Terre Rouge (lieu-dit stade), Yaoundé
         </p>
 
         <div className="mt-3 md:mt-6 pt-3 md:pt-6 border-t border-mustard/40 w-full">
-          <p className="font-display italic text-cocoa-light text-[11px] md:text-base text-center leading-snug">
+          <p className="font-display italic text-cocoa-light text-sm md:text-base text-center leading-snug">
             « Il n&apos;y a qu&apos;un bonheur dans la vie, c&apos;est d&apos;aimer
             et de se sentir aimé. »
           </p>
-          <p className="mt-1.5 font-display italic text-cocoa text-[11px] md:text-base text-center leading-snug">
+          <p className="mt-1.5 font-display italic text-cocoa text-sm md:text-base text-center leading-snug">
             « Celui qui trouve une femme trouve le bonheur ; c&apos;est une
             grâce qu&apos;il obtient de l&apos;Éternel. »
           </p>
-          <p className="mt-1 text-cocoa-light text-[9px] md:text-xs uppercase tracking-widest text-center">
+          <p className="mt-1 text-cocoa-light text-xs md:text-xs uppercase tracking-widest text-center">
             Proverbes 18:22
           </p>
         </div>
