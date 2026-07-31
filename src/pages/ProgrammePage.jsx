@@ -32,7 +32,7 @@ const TIMELINE = [
 const CALENDAR_URL =
   'https://calendar.google.com/calendar/render?action=TEMPLATE' +
   '&text=' + encodeURIComponent('Mariage Anthony & Osier Andréa') +
-  '&dates=20260814/20260815' +
+  '&dates=20260814T133000/20260814T220000' +
   '&details=' + encodeURIComponent("Accueil, danse traditionnelle et cérémonie de la dot (Nsimeyong, Terre Rouge, Yaoundé).") +
   '&location=' + encodeURIComponent('Nsimeyong, Terre Rouge, Yaoundé, Cameroun')
 

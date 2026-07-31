@@ -16,39 +16,47 @@ const CATEGORIES = [
     name: 'Les Entrées',
     motif: 'calabash',
     photo: menuEntreesImg,
-    items: ['Salade charcutière', 'Salade russe', 'Assiette paysanne'],
+    items: ['Salade charcutière', 'Salade russe', 'Quiche Lorraine'],
   },
   {
     name: 'Les Plats Chauds',
     motif: 'djembe',
     photo: menuPlatsImg,
     items: [
-      'Tripes de bœuf',
-      'Mbongo de porc',
-      'Méchoui',
-      'Poisson braisé',
-      'Poulet aux champignons',
-      'Mets de pistache',
+      'Ndomba de porc',
+      "Ndomba de poisson d'eau douce",
       'Médaillon de poisson pané',
-      'Porc fumé',
-      'Ndolé royal',
-      'Émincés de bœuf aux légumes',
-      'Légumes sautés du pêcheur',
+      'Porc fumé aux épices',
+      'Bœuf Stroganoff',
       'Poulet frit aux épices',
+      'Chèvre à la sauce (avec tripes)',
+      "Boa fumé à la sauce d'arachide",
+      'Viande de brousse',
+      'Escargots aux épices',
+      'Ndolé royal',
+      'Gombo frit non gluant',
+      'Pondu',
+      'Eru',
+      'Mets de pistache',
+      "Mets d'arachide",
     ],
   },
   {
-    name: 'La Garniture',
+    name: 'Les Accompagnements',
     motif: 'basket',
     photo: menuAccompagnementsImg,
     items: [
-      'Riz pilaf',
-      'Plantain mûr frit',
-      'Macabo à l’huile',
+      'Plantains mûrs frits',
+      'Plantain pilé (Mintouba)',
       'Miondo',
-      'Pommes sautées',
+      'Riz aux vermicelles',
       'Bâton de manioc',
+      'Chikwang',
       'Igname vapeur',
+      'Angomo (manioc râpé)',
+      'Eba fon (maïs, arachides, feuilles fraîches)',
+      'Foutou',
+      'Water fufu',
     ],
   },
   {
@@ -137,11 +145,11 @@ export default function MenuPage() {
                     {cat.name}
                   </span>
                 </div>
-                <ul className="text-center space-y-2 md:space-y-3">
+                <ul className="text-left mx-auto w-fit space-y-2.5 md:space-y-3.5">
                   {cat.items.map((item) => (
                     <li
                       key={item}
-                      className="font-display italic text-lg md:text-xl text-cocoa-light"
+                      className="font-display italic text-xl md:text-2xl text-cocoa-light"
                     >
                       {item}
                     </li>
