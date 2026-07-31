@@ -18,7 +18,7 @@ export default function Envelope({ onOpen }) {
     <motion.div
       animate={{ opacity: opening ? 0 : 1 }}
       transition={{ duration: 0.35, delay: opening ? 0.35 : 0 }}
-      className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden bg-cocoa px-6 py-10"
+      className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden bg-cocoa px-4 py-4"
     >
       <motion.img
         src={goldFabricBg}
@@ -71,14 +71,14 @@ export default function Envelope({ onOpen }) {
         }}
         transition={{ duration: 0.4 }}
         style={{ boxShadow: '0 25px 60px -15px rgba(0,0,0,0.6), 0 10px 25px -8px rgba(0,0,0,0.4)' }}
-        className="relative z-10 w-full max-w-xs sm:max-w-sm md:max-w-lg border-2 md:border-[3px] border-mustard/70 rounded-t-full rounded-b-lg pt-10 md:pt-16 pb-8 md:pb-12 px-6 md:px-10 flex flex-col items-center bg-cream/60 backdrop-blur-sm"
+        className="relative z-10 w-full max-w-[19rem] sm:max-w-sm md:max-w-lg border-2 md:border-[3px] border-mustard/70 rounded-t-full rounded-b-lg pt-6 md:pt-10 pb-5 md:pb-8 px-5 md:px-10 flex flex-col items-center bg-cream/60 backdrop-blur-sm"
       >
         <span
           aria-hidden="true"
           className="pointer-events-none absolute inset-[5px] md:inset-[7px] rounded-t-full rounded-b-md border border-mustard/40"
         />
 
-        <div className="relative w-28 h-28 md:w-40 md:h-40 flex items-center justify-center mb-8 md:mb-10">
+        <div className="relative w-20 h-20 md:w-32 md:h-32 flex items-center justify-center mb-3 md:mb-6">
           <motion.div
             className="absolute inset-0 rounded-full bg-mustard/40 blur-lg"
             animate={{ scale: [1, 1.2, 1], opacity: [0.5, 0.9, 0.5] }}
@@ -100,7 +100,7 @@ export default function Envelope({ onOpen }) {
           <motion.div
             animate={{ scale: [1, 1.05, 1] }}
             transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
-            className="relative w-28 h-28 md:w-40 md:h-40 rounded-full bg-ivory border-4 md:border-[5px] border-mustard overflow-hidden shadow-lg"
+            className="relative w-20 h-20 md:w-32 md:h-32 rounded-full bg-ivory border-4 md:border-[5px] border-mustard overflow-hidden shadow-lg"
           >
             <img
               src={coupleImg}
@@ -110,17 +110,17 @@ export default function Envelope({ onOpen }) {
           </motion.div>
         </div>
 
-        <p className="font-display italic text-cocoa text-sm md:text-lg text-center mb-6 md:mb-8">
+        <p className="font-display italic text-cocoa text-xs md:text-lg text-center mb-2 md:mb-5 leading-snug">
           Deux familles, une union, une tradition.
         </p>
 
-        <p className="text-cocoa-light uppercase tracking-[0.2em] text-xs md:text-sm mb-6 md:mb-8 text-center">
+        <p className="text-cocoa-light uppercase tracking-[0.2em] text-[10px] md:text-sm mb-3 md:mb-6 text-center">
           Cliquez sur l&apos;enveloppe
         </p>
 
         <button
           onClick={handleClick}
-          className="group relative w-full aspect-[3/2] focus:outline-none"
+          className="group relative w-full max-w-[13rem] md:max-w-xs aspect-[3/2] focus:outline-none"
           aria-label="Ouvrir l'invitation"
           style={{ perspective: 600 }}
         >
@@ -154,23 +154,23 @@ export default function Envelope({ onOpen }) {
           </motion.div>
         </button>
 
-        <p className="mt-8 md:mt-10 font-display italic text-cocoa-light text-sm md:text-lg text-center">
+        <p className="mt-4 md:mt-6 font-display italic text-cocoa-light text-xs md:text-lg text-center">
           Anthony &amp; Osier Andréa vous invitent
         </p>
-        <p className="mt-2 text-sm md:text-lg uppercase tracking-[0.05em] text-cocoa font-bold text-center leading-snug px-2">
+        <p className="mt-1 text-xs md:text-lg uppercase tracking-[0.05em] text-cocoa font-bold text-center leading-snug px-2">
           Nsimeyong, Terre Rouge (lieu-dit stade), Yaoundé
         </p>
 
-        <div className="mt-6 md:mt-8 pt-6 md:pt-8 border-t border-mustard/40 w-full">
-          <p className="font-display italic text-cocoa-light text-xs md:text-base text-center leading-relaxed">
+        <div className="mt-3 md:mt-6 pt-3 md:pt-6 border-t border-mustard/40 w-full">
+          <p className="font-display italic text-cocoa-light text-[11px] md:text-base text-center leading-snug">
             « Il n&apos;y a qu&apos;un bonheur dans la vie, c&apos;est d&apos;aimer
             et de se sentir aimé. »
           </p>
-          <p className="mt-4 font-display italic text-cocoa text-xs md:text-base text-center leading-relaxed">
+          <p className="mt-1.5 font-display italic text-cocoa text-[11px] md:text-base text-center leading-snug">
             « Celui qui trouve une femme trouve le bonheur ; c&apos;est une
             grâce qu&apos;il obtient de l&apos;Éternel. »
           </p>
-          <p className="mt-1 text-cocoa-light text-[10px] md:text-xs uppercase tracking-widest text-center">
+          <p className="mt-1 text-cocoa-light text-[9px] md:text-xs uppercase tracking-widest text-center">
             Proverbes 18:22
           </p>
         </div>
