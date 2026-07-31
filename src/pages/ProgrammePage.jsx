@@ -24,7 +24,7 @@ const TIMELINE = [
   {
     day: '14 Août 2026',
     time: '18h00',
-    title: 'Agapes',
+    title: 'Dîner',
     subtitle: 'Piano Bar, danse & prestations des artistes',
   },
 ]
@@ -94,6 +94,9 @@ export default function ProgrammePage() {
             <h1 className="font-script text-3xl md:text-5xl px-1 shimmer-text">Au Programme</h1>
             <Laurel className="w-10 h-4 md:w-14 md:h-6" flip />
           </div>
+          <p className="text-center text-xs md:text-sm uppercase tracking-[0.2em] text-cocoa-light mt-2">
+            Cérémonie de mariage traditionnelle
+          </p>
 
           <div className="flex items-center justify-center gap-3 mt-6 md:mt-8">
             <span className="h-px w-8 md:w-12 bg-mustard" />
