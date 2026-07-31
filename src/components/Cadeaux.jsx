@@ -45,8 +45,8 @@ export default function Cadeaux() {
           </div>
 
           <p className="mt-8 md:mt-10 text-sm md:text-lg text-cocoa-light leading-relaxed">
-            Un panier sera également disponible sur place pour y déposer
-            vos cadeaux en nature.
+            Un panier sera également disponible sur place pour déposer
+            vos cadeaux en espèces.
           </p>
         </div>
       </Reveal>
