@@ -19,7 +19,7 @@ const TIMELINE = [
     day: '14 Août 2026',
     time: '15h00 – 17h00',
     title: 'Cérémonie de la Dot',
-    subtitle: 'Demande de main puis cérémonie de dot',
+    subtitle: 'Demande de « main » puis cérémonie de dot',
   },
   {
     day: '14 Août 2026',
