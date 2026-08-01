@@ -159,11 +159,7 @@ export default function Envelope({ onOpen }) {
         </p>
 
         <div className="mt-3 md:mt-6 pt-3 md:pt-6 border-t border-mustard/40 w-full">
-          <p className="font-display italic text-cocoa-light text-sm md:text-base text-center leading-snug">
-            « Il n&apos;y a qu&apos;un bonheur dans la vie, c&apos;est d&apos;aimer
-            et de se sentir aimé. »
-          </p>
-          <p className="mt-1.5 font-display italic text-cocoa text-sm md:text-base text-center leading-snug">
+          <p className="font-display italic text-cocoa text-sm md:text-base text-center leading-snug">
             « Celui qui trouve une femme trouve le bonheur ; c&apos;est une
             grâce qu&apos;il obtient de l&apos;Éternel. »
           </p>
