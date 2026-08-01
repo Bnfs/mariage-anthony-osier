@@ -16,7 +16,7 @@ const CATEGORIES = [
     name: 'Les Entrées',
     motif: 'calabash',
     photo: menuEntreesImg,
-    items: ['Assiette paysanne', 'Salade charcutière', 'Salade russe'],
+    items: ['Salade charcutière', 'Salade russe', 'Assiette paysanne'],
   },
   {
     name: 'Les Plats Chauds',
@@ -40,7 +40,7 @@ const CATEGORIES = [
       "Escargots à la sauce d'arachide",
       'Mets de pistache',
       "Mets d'arachide",
-    ].sort((a, b) => a.localeCompare(b, 'fr')),
+    ],
   },
   {
     name: 'La Garniture',
@@ -58,7 +58,7 @@ const CATEGORIES = [
       'Pommes sautées',
       'Foufou',
       'Igname vapeur',
-    ].sort((a, b) => a.localeCompare(b, 'fr')),
+    ],
   },
   {
     name: 'Desserts & Digestif',
