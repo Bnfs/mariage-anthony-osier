@@ -27,6 +27,18 @@ const TIMELINE = [
     title: 'Dîner',
     subtitle: 'Piano Bar, danse & prestations des artistes',
   },
+  {
+    day: '14 Août 2026',
+    time: '18h30',
+    title: 'Cadeaux',
+    subtitle: 'Remise des cadeaux',
+  },
+  {
+    day: '14 Août 2026',
+    time: '19h00',
+    title: 'Coupure du gâteau',
+    subtitle: 'Moment de partage et de célébration',
+  },
 ]
 
 const CALENDAR_URL =
