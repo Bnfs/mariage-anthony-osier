@@ -15,18 +15,6 @@ const ITEMS = [
     ),
   },
   {
-    label: 'Lieu',
-    target: '#lieu',
-    icon: (
-      <path
-        d="M12 21s7-6.5 7-11.5A7 7 0 1 0 5 9.5C5 14.5 12 21 12 21z M12 12a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        fill="none"
-      />
-    ),
-  },
-  {
     label: 'Menu',
     route: '/menu',
     icon: (
@@ -40,15 +28,14 @@ const ITEMS = [
     ),
   },
   {
-    label: 'Contacts',
-    target: '#contacts',
+    label: 'Infos pratiques',
+    target: '#lieu',
     icon: (
       <path
-        d="M6 3h3l2 5-2.5 1.5a11 11 0 0 0 5 5L15 12l5 2v3a2 2 0 0 1-2 2C10.5 19 5 13.5 5 6a2 2 0 0 1 1-3z"
+        d="M12 21s7-6.5 7-11.5A7 7 0 1 0 5 9.5C5 14.5 12 21 12 21z M12 12a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"
         stroke="currentColor"
         strokeWidth="1.5"
         fill="none"
-        strokeLinejoin="round"
       />
     ),
   },

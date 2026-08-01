@@ -4,8 +4,7 @@ import Hero from '../components/Hero'
 import Welcome from '../components/Welcome'
 import MenuIcons from '../components/MenuIcons'
 import Blessing from '../components/Blessing'
-import Lieu from '../components/Lieu'
-import Contacts from '../components/Contacts'
+import InfosPratiques from '../components/InfosPratiques'
 import Cadeaux from '../components/Cadeaux'
 import FloatingPetals from '../components/FloatingPetals'
 
@@ -29,11 +28,10 @@ export default function Home() {
     <main className="min-h-screen bg-cream">
       <FloatingPetals />
       <Hero />
-      <Welcome target={WEDDING_START} />
       <MenuIcons />
+      <Welcome target={WEDDING_START} />
+      <InfosPratiques />
       <Blessing />
-      <Lieu />
-      <Contacts />
       <Cadeaux />
       <footer className="bg-cocoa text-mustard text-center text-xs md:text-sm py-6 md:py-8 tracking-widest uppercase">
         <svg
