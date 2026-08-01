@@ -110,11 +110,11 @@ export default function Envelope({ onOpen }) {
           </motion.div>
         </div>
 
-        <p className="font-display italic text-cocoa text-sm md:text-lg text-center mb-2 md:mb-5 leading-snug">
+        <p className="font-display italic text-cocoa text-base md:text-lg text-center mb-2 md:mb-5 leading-snug">
           Deux familles, une union, une tradition.
         </p>
 
-        <p className="text-cocoa-light uppercase tracking-[0.2em] text-xs md:text-sm mb-3 md:mb-6 text-center">
+        <p className="text-cocoa-light uppercase tracking-[0.2em] text-sm md:text-sm mb-3 md:mb-6 text-center">
           Cliquez sur l&apos;enveloppe
         </p>
 
@@ -154,16 +154,16 @@ export default function Envelope({ onOpen }) {
           </motion.div>
         </button>
 
-        <p className="mt-4 md:mt-6 font-display italic text-cocoa-light text-sm md:text-lg text-center">
+        <p className="mt-4 md:mt-6 font-display italic text-cocoa-light text-base md:text-lg text-center">
           Anthony &amp; Osier Andréa ont le bonheur de vous inviter à célébrer leur union
         </p>
 
         <div className="mt-3 md:mt-6 pt-3 md:pt-6 border-t border-mustard/40 w-full">
-          <p className="font-display italic text-cocoa text-sm md:text-base text-center leading-snug">
+          <p className="font-display italic text-cocoa text-base md:text-base text-center leading-snug">
             « Celui qui trouve une femme trouve le bonheur ; c&apos;est une
             grâce qu&apos;il obtient de l&apos;Éternel. »
           </p>
-          <p className="mt-1 text-cocoa-light text-xs md:text-xs uppercase tracking-widest text-center">
+          <p className="mt-1 text-cocoa-light text-sm md:text-xs uppercase tracking-widest text-center">
             Proverbes 18:22
           </p>
         </div>
