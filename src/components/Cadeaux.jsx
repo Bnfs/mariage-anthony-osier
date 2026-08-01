@@ -3,7 +3,6 @@ import Reveal from './Reveal'
 import AfricanMotif from './AfricanMotif'
 import orangeMoneyIcon from '../assets/orange-money-logo.png'
 import mtnMomoIcon from '../assets/mtn-momo-logo.png'
-import revolutIcon from '../assets/revolut-logo.png'
 
 export default function Cadeaux() {
   return (
@@ -22,8 +21,7 @@ export default function Cadeaux() {
           <p className="mt-4 md:mt-6 text-sm md:text-lg text-cocoa-light leading-relaxed">
             Votre présence à nos côtés sera notre plus beau cadeau. Si vous
             souhaitez toutefois nous témoigner une attention, nos numéros
-            Orange Money et MTN Mobile Money ainsi qu&apos;un lien Revolut
-            sont mis à votre disposition.
+            Orange Money et MTN Mobile Money sont mis à votre disposition.
           </p>
           <div className="mt-8 md:mt-10 flex flex-wrap items-stretch justify-center gap-4">
             <div className="inline-flex flex-col items-center gap-2 border-2 border-mustard/50 rounded-2xl bg-white px-8 py-5 shadow-sm">
@@ -39,18 +37,6 @@ export default function Cadeaux() {
                 +237 6 54 57 38 81
               </span>
             </div>
-
-            <a
-              href="https://revolut.me/edouardwilly"
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex flex-col items-center gap-2 border-2 border-mustard/50 rounded-2xl bg-white px-8 py-5 shadow-sm hover:bg-mustard/10 transition-colors"
-            >
-              <img src={revolutIcon} alt="Revolut" className="h-6 md:h-7" />
-              <span className="text-xs uppercase tracking-widest text-cocoa-light">
-                Envoyer via Revolut
-              </span>
-            </a>
           </div>
 
           <p className="mt-8 md:mt-10 text-sm md:text-lg text-cocoa-light leading-relaxed">
