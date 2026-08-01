@@ -1,9 +1,9 @@
 import WaxPattern from './WaxPattern'
 import Reveal from './Reveal'
 import AfricanMotif from './AfricanMotif'
-import orangeMoneyIcon from '../assets/orange-money.svg'
-import mtnMomoIcon from '../assets/mtn-momo.svg'
-import revolutIcon from '../assets/revolut.svg'
+import orangeMoneyIcon from '../assets/orange-money-logo.png'
+import mtnMomoIcon from '../assets/mtn-momo-logo.png'
+import revolutIcon from '../assets/revolut-logo.png'
 
 export default function Cadeaux() {
   return (
