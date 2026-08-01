@@ -61,7 +61,7 @@ const CATEGORIES = [
   },
   {
     name: 'Les Desserts',
-    motif: 'cowrie',
+    motif: 'mask',
     photo: menuDessertsImg,
     items: ['Cascade de fruits', 'Pâtisserie variée'],
   },

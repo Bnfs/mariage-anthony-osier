@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion'
 import WaxPattern from './WaxPattern'
 import Reveal from './Reveal'
-import AfricanMotif from './AfricanMotif'
+import cowrieImg from '../assets/cowrie.jpg'
+import sandalImg from '../assets/sandal.jpg'
 
 const GOOGLE_MAPS_URL =
   'https://www.google.com/maps/place/Entr%C3%A9e+Terre+Rouge/@3.8317215,11.490817,17z/data=!3m1!4b1!4m6!3m5!1s0x108bcfd9a126b0dd:0xf2e93eb71cfa5275!8m2!3d3.8317162!4d11.4933919!16s%2Fg%2F1pp2tzjx8?authuser=0'
@@ -23,8 +24,16 @@ export default function InfosPratiques() {
     <section id="lieu" className="relative bg-white px-6 py-16 md:py-24 text-center scroll-mt-6 overflow-hidden">
       <WaxPattern className="absolute top-2 left-2 w-20 h-20 md:w-28 md:h-28 -rotate-12" />
       <WaxPattern className="absolute bottom-2 right-2 w-20 h-20 md:w-28 md:h-28 rotate-45" />
-      <AfricanMotif type="cowrie" className="absolute top-1/4 left-3 -translate-y-1/2 w-11 h-11 md:w-16 md:h-16 opacity-80" />
-      <AfricanMotif type="sandal" className="absolute bottom-1/4 right-3 w-11 h-11 md:w-16 md:h-16 opacity-80" />
+      <img
+        src={cowrieImg}
+        alt="Cauris"
+        className="absolute top-1/4 left-3 -translate-y-1/2 w-11 h-11 md:w-16 md:h-16 rounded-full border-2 border-mustard object-cover opacity-90 shadow-sm"
+      />
+      <img
+        src={sandalImg}
+        alt="Sandales traditionnelles"
+        className="absolute bottom-1/4 right-3 w-11 h-11 md:w-16 md:h-16 rounded-full border-2 border-mustard object-cover opacity-90 shadow-sm"
+      />
 
       <Reveal>
         <h2 className="font-display text-3xl md:text-5xl text-coral mb-6 md:mb-10 tracking-wide">Infos pratiques</h2>

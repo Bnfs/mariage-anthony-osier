@@ -47,19 +47,6 @@ const ICONS = {
       <path d="M9 10l1 11M15 10l-1 11" strokeLinecap="round" />
     </>
   ),
-  cowrie: (
-    <>
-      <path d="M12 3c4 0 7 4 7 8.5S16 21 12 21s-7-5-7-9.5S8 3 12 3z" />
-      <path d="M12 6c1 3 1 9 0 12M9.5 8c.8 2.5.8 6.5 0 9M14.5 8c-.8 2.5-.8 6.5 0 9" strokeLinecap="round" />
-    </>
-  ),
-  sandal: (
-    <>
-      <path d="M12 3c-3 0-5 3.5-5 9s2 9 5 9 5-3.5 5-9-2-9-5-9z" />
-      <path d="M8 8c1.3.9 2.7 1.3 4 1.3S14.7 8.9 16 8" strokeLinecap="round" />
-      <path d="M12 4.5v5" strokeLinecap="round" />
-    </>
-  ),
 }
 
 export default function AfricanMotif({ type = 'calabash', className = '' }) {
