@@ -13,12 +13,8 @@ export default function Welcome({ target }) {
       <div className="max-w-xs sm:max-w-sm md:max-w-2xl lg:max-w-3xl mx-auto">
         <Reveal>
           <p className="font-display italic text-lg md:text-2xl text-cocoa leading-relaxed">
-            « Nous venons de deux chemins différents, avec nos blessures,
-            nos combats, nos rêves…
-          </p>
-          <p className="font-display italic text-lg md:text-2xl text-cocoa leading-relaxed mt-4">
-            Mais Dieu, le temps et l&apos;amour ont uni nos pas pour écrire
-            une seule histoire. »
+            « Il n&apos;y a qu&apos;un bonheur dans la vie, c&apos;est
+            d&apos;aimer et de se sentir aimé. »
           </p>
         </Reveal>
 
