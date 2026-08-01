@@ -61,10 +61,10 @@ const CATEGORIES = [
     ].sort((a, b) => a.localeCompare(b, 'fr')),
   },
   {
-    name: 'Les Desserts',
+    name: 'Desserts & Digestif',
     motif: 'mask',
     photo: menuDessertsImg,
-    items: ['Cascade de fruits', 'Pâtisserie variée'],
+    items: ['Cascade de fruits', 'Pâtisserie variée', 'Mendim me zoñ'],
   },
 ]
 
@@ -179,9 +179,6 @@ export default function MenuPage() {
         <Reveal delay={0.5}>
           <p className="mt-14 md:mt-20 text-center font-script text-2xl md:text-3xl text-coral">
             Bon appétit !
-          </p>
-          <p className="mt-2 text-center italic text-cocoa-light text-sm md:text-base">
-            Mendim me zoñ
           </p>
         </Reveal>
       </div>
