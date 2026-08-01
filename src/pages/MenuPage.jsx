@@ -180,6 +180,9 @@ export default function MenuPage() {
           <p className="mt-14 md:mt-20 text-center font-script text-2xl md:text-3xl text-coral">
             Bon appétit !
           </p>
+          <p className="mt-2 text-center italic text-cocoa-light text-sm md:text-base">
+            Mendim me zoñ
+          </p>
         </Reveal>
       </div>
     </main>
