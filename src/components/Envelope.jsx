@@ -125,7 +125,7 @@ export default function Envelope({ onOpen }) {
           style={{ perspective: 600 }}
         >
           <motion.div
-            className="absolute inset-0 rounded-md bg-coral/90 shadow-xl"
+            className="absolute inset-0 rounded-md bg-cream border-2 border-mustard shadow-xl"
             animate={{ scale: opening ? 1.05 : 1 }}
             transition={{ duration: 0.5 }}
           />

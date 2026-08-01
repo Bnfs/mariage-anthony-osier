@@ -23,6 +23,12 @@ const TIMELINE = [
   },
   {
     day: '14 Août 2026',
+    time: '17h15',
+    title: 'Installation',
+    subtitle: 'Installation des invités pour la soirée',
+  },
+  {
+    day: '14 Août 2026',
     time: '17h30',
     title: 'Dîner',
     subtitle: 'Piano Bar, danse & prestations des artistes',
