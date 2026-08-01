@@ -4,6 +4,7 @@ import Hero from '../components/Hero'
 import Welcome from '../components/Welcome'
 import MenuIcons from '../components/MenuIcons'
 import Blessing from '../components/Blessing'
+import FamilyBlessing from '../components/FamilyBlessing'
 import InfosPratiques from '../components/InfosPratiques'
 import Cadeaux from '../components/Cadeaux'
 import FloatingPetals from '../components/FloatingPetals'
@@ -30,6 +31,7 @@ export default function Home() {
       <Hero />
       <MenuIcons />
       <Welcome target={WEDDING_START} />
+      <FamilyBlessing />
       <InfosPratiques />
       <Blessing />
       <Cadeaux />
