@@ -16,7 +16,7 @@ const CATEGORIES = [
     name: 'Les Entrées',
     motif: 'calabash',
     photo: menuEntreesImg,
-    items: ['Salade charcutière', 'Salade russe', 'Quiche Lorraine'],
+    items: ['Quiche Lorraine', 'Salade charcutière', 'Salade russe'],
   },
   {
     name: 'Les Plats Chauds',
@@ -39,7 +39,7 @@ const CATEGORIES = [
       'Eru',
       'Mets de pistache',
       "Mets d'arachide",
-    ],
+    ].sort((a, b) => a.localeCompare(b, 'fr')),
   },
   {
     name: 'Les Accompagnements',
@@ -57,7 +57,7 @@ const CATEGORIES = [
       'Eba fon (maïs, arachides, feuilles fraîches)',
       'Foutou',
       'Water fufu',
-    ],
+    ].sort((a, b) => a.localeCompare(b, 'fr')),
   },
   {
     name: 'Les Desserts',
