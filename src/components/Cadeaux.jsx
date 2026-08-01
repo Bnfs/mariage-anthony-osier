@@ -2,6 +2,7 @@ import WaxPattern from './WaxPattern'
 import Reveal from './Reveal'
 import AfricanMotif from './AfricanMotif'
 import orangeMoneyIcon from '../assets/orange-money.svg'
+import mtnMomoIcon from '../assets/mtn-momo.svg'
 import revolutIcon from '../assets/revolut.svg'
 
 export default function Cadeaux() {
@@ -20,14 +21,22 @@ export default function Cadeaux() {
           </p>
           <p className="mt-4 md:mt-6 text-sm md:text-lg text-cocoa-light leading-relaxed">
             Votre présence à nos côtés sera notre plus beau cadeau. Si vous
-            souhaitez toutefois nous témoigner une attention, un numéro
-            Orange Money et un lien Revolut sont mis à votre disposition.
+            souhaitez toutefois nous témoigner une attention, nos numéros
+            Orange Money et MTN Mobile Money ainsi qu&apos;un lien Revolut
+            sont mis à votre disposition.
           </p>
           <div className="mt-8 md:mt-10 flex flex-wrap items-stretch justify-center gap-4">
             <div className="inline-flex flex-col items-center gap-2 border-2 border-mustard/50 rounded-2xl bg-white px-8 py-5 shadow-sm">
               <img src={orangeMoneyIcon} alt="Orange Money" className="h-6 md:h-7" />
               <span className="font-display text-lg md:text-xl text-cocoa">
                 +237 6 98 29 91 12
+              </span>
+            </div>
+
+            <div className="inline-flex flex-col items-center gap-2 border-2 border-mustard/50 rounded-2xl bg-white px-8 py-5 shadow-sm">
+              <img src={mtnMomoIcon} alt="MTN Mobile Money" className="h-6 md:h-7" />
+              <span className="font-display text-lg md:text-xl text-cocoa">
+                +237 6 54 57 38 81
               </span>
             </div>
 
