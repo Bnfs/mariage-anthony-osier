@@ -155,7 +155,7 @@ export default function Envelope({ onOpen }) {
         </button>
 
         <p className="mt-4 md:mt-6 font-display italic text-cocoa-light text-sm md:text-lg text-center">
-          Anthony &amp; Osier Andréa vous invitent
+          Anthony &amp; Osier Andréa ont le bonheur de vous inviter à célébrer leur union
         </p>
 
         <div className="mt-3 md:mt-6 pt-3 md:pt-6 border-t border-mustard/40 w-full">
